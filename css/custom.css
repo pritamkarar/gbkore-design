@@ -1,0 +1,137 @@
+.header-three {
+  margin-bottom: 0;
+}
+.main-menu {
+  align-self: center;
+}
+.searchform input {
+  width: 100%;
+  background: none;
+  border: 1px solid #2d3547;
+  padding: 7px 10px;
+  color: #000;
+  border-radius: 5px;
+}
+.main-menu ul li a {
+  padding: 0;
+}
+.login li {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: 15px 0px 15px 20px;
+}
+.login li.search-result-item {
+  padding: 15px 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.login li.search-result-item img {
+  width: 35px;
+  margin-right: 15px;
+  height: 35px;
+  object-fit: contain;
+}
+.search-btn {
+  position: absolute;
+  border: none;
+  right: 0;
+  background: #fe5716;
+  padding: 8px 14px;
+  top: 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.header-three .sticky-menu {
+  padding: 10px 0;
+}
+ul.search-results {
+  position: absolute;
+  background: #fff;
+  width: 100%;
+  top: 65px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 25%);
+  max-height: 500px;
+  overflow-y: auto;
+}
+ul.search-results li {
+  width: 100%;
+  text-align: start;
+  margin: 0;
+}
+ul.search-results li:not(:last-of-type) {
+  border-bottom: 1px solid #e8e8e8;
+}
+.search-results::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+.search-results::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.search-results::-webkit-scrollbar-thumb {
+  background: #017f3f;
+}
+.sub-menu {
+  padding-left: 10px;
+  position: absolute;
+  background: #fff;
+  min-width: 250px;
+  transform: translateX(250px);
+  border-top: 4px solid #fe5716;
+  visibility: hidden;
+  margin-left: -30px;
+  opacity: 0;
+  z-index: 1;
+  transition: all 0.3s ease-in-out;
+  top: 0px;
+}
+.main-menu .has-sub li:hover > ul {
+  visibility: visible;
+  margin-left: -15px;
+  opacity: 1;
+}
+.main-menu .has-sub li .sub-menu li {
+  border-bottom: 1px solid #ddd;
+}
+
+.main-menu .has-sub > ul {
+  padding: 10px 15px 0;
+}
+.main-menu .has-sub > ul .search-btn {
+  background: transparent;
+}
+.main-menu ul li:first-child {
+  padding-bottom: 10px;
+}
+
+.services-active button.slick-nav, .products-active button.slick-nav {
+  position: absolute;
+  top: 45%;
+  color: #222222;
+  font-size: 40px;
+  line-height: 60px;
+  border: none;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  background: none;
+}
+
+.services-active button.slick-nav.slick-disabled, .products-active button.slick-nav.slick-disabled {  
+  color:#c1bdbd;
+}
+
+.services-active button.slick-next, .products-active button.slick-next {
+  left: auto;
+  right: -15%;
+}
+
+.services-active button.slick-prev, .products-active button.slick-prev {
+  left: -15%;
+}

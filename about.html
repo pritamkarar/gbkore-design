@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Dawork - Next-Gen Factory & Industry HTML Template</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/gb.png" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="fontawesome-pro/css/all.min.css" />
+    <link rel="stylesheet" href="css/dripicons.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/meanmenu.css" />
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/default.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <!--  Preloader  -->
+    <div id="preloader">
+      <div id="loading"></div>
+    </div>
+    <!--  Preloader end  -->
+    <!-- header -->
+    <header class="header-area header-three py-3">
+      <div id="header-sticky" class="menu-area">
+        <div class="container">
+          <div class="second-menu">
+            <div class="row align-items-center">
+              <div class="col-lg-2 col-md-12 d-lg-none d-x-none">
+                <div class="logo">
+                  <a href="index.html"
+                    ><img src="images/logo.png" alt="logo"
+                  /></a>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-12 d-none d-md-block">
+                <div class="logo">
+                  <a href="index.html"
+                    ><img src="img/logo/1logo.png" alt="logo"
+                  /></a>
+                </div>
+              </div>
+              <div class="col-xl-10 col-lg-10">
+                <div class="d-flex align-content-center justify-content-end">
+                  <div class="main-menu">
+                    <nav id="mobile-menu">
+                      <ul>
+                        <li>
+                          <a href="/">Home</a>
+                        </li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li class="has-sub">
+                          <a href="products.html">Product</a>
+                          <ul>
+                            <li class="position-relative searchform">
+                              <i
+                                class="fal fa-search position-absolute"
+                                style="top: 14px; right: 12px"
+                              ></i>
+                              <input type="text" placeholder="Search" />
+                            </li>
+                            <li>
+                              <a href="/">ARC</a>
+                              <ul class="sub-menu">
+                                <li>
+                                  <a href="product-details.html">ARC200</a>
+                                </li>
+                                <li>
+                                  <a href="product-details.html">ARC222</a>
+                                </li>
+                                <li>
+                                  <a href="product-details.html">ARC270ST</a>
+                                </li>
+                                <li>
+                                  <a href="product-details.html">ARC300</a>
+                                </li>
+                                <li>
+                                  <a href="product-details.html">ARC400HD</a>
+                                </li>
+                                <li>
+                                  <a href="product-details.html">MMA-400GI</a>
+                                </li>
+                                <li>
+                                  <a href="product-details.html">MMA-400IJ</a>
+                                </li>
+                              </ul>
+                            </li>
+                            <li>
+                              <a href="/">TIG</a>
+                              <ul class="sub-menu">
+                                <li>
+                                  <a href="product-details.html">TIG200A</a>
+                                </li>
+                                <li>
+                                  <a href="product-details.html">TIG300</a>
+                                </li>
+                                <li>
+                                  <a href="product-details.html">TIG315BP</a>
+                                </li>
+                                <li>
+                                  <a href="product-details.html">TIG200M</a>
+                                </li>
+                                <li>
+                                  <a href="product-details.html">TIG400Mos</a>
+                                </li>
+                                <li>
+                                  <a href="product-details.html">TIG400P</a>
+                                </li>
+                                <li>
+                                  <a href="product-details.html">TIG315AC/DC</a>
+                                </li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </li>
+                        <li><a href="#">Awards</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                  <div class="login text-right d-none d-lg-block">
+                    <ul>
+                      <!-- <li><a href="#" class="menu-tigger"><img src="img/icon/search.png" alt="logo"></a></li> -->
+                      <li class="position-relative searchform">
+                        <i
+                          class="fal fa-search position-absolute"
+                          style="top: 14px; right: 12px"
+                        ></i>
+                        <input
+                          type="text"
+                          id="search"
+                          placeholder="Search Products"
+                        />
+                        <ul class="search-results"></ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-2 col-lg-2"></div>
+              <div class="col-12">
+                <div class="mobile-menu"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header-end -->
+    <!-- offcanvas-area -->
+    <div class="offcanvas-menu">
+      <span class="menu-close"><i class="fas fa-times"></i></span>
+      <form
+        role="search"
+        method="get"
+        id="searchform"
+        class="searchform"
+        action=""
+      >
+        <input type="text" name="s" id="search" placeholder="Search" />
+        <button><i class="fa fa-search"></i></button>
+      </form>
+
+      <div id="cssmenu3" class="menu-one-page-menu-container">
+        <ul class="menu">
+          <li class="menu-item menu-item-type-custom menu-item-object-custom">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="menu-item menu-item-type-custom menu-item-object-custom">
+            <a href="about.html">About Us</a>
+          </li>
+          <li class="menu-item menu-item-type-custom menu-item-object-custom">
+            <a href="services.html">Services</a>
+          </li>
+          <li class="menu-item menu-item-type-custom menu-item-object-custom">
+            <a href="pricing.html">Pricing </a>
+          </li>
+          <li class="menu-item menu-item-type-custom menu-item-object-custom">
+            <a href="team.html">Team </a>
+          </li>
+
+          <li class="menu-item menu-item-type-custom menu-item-object-custom">
+            <a href="projects.html">Cases Study</a>
+          </li>
+          <li class="menu-item menu-item-type-custom menu-item-object-custom">
+            <a href="blog.html">Blog</a>
+          </li>
+          <li class="menu-item menu-item-type-custom menu-item-object-custom">
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <div id="cssmenu2" class="menu-one-page-menu-container">
+        <ul id="menu-one-page-menu-12" class="menu">
+          <li class="menu-item menu-item-type-custom menu-item-object-custom">
+            <a href="#home"><span>+8 12 3456897</span></a>
+          </li>
+          <li class="menu-item menu-item-type-custom menu-item-object-custom">
+            <a href="#howitwork"><span>info@example.com</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="offcanvas-overly"></div>
+    <!-- offcanvas-end -->
+    <!-- main-area -->
+    <main>
+      <!-- breadcrumb-area -->
+      <section
+        class="breadcrumb-area d-flex align-items-center"
+        style="background-image: url(img/bg/bdrc-bg.jpg)"
+      >
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-xl-12 col-lg-12">
+              <div class="breadcrumb-wrap text-left">
+                <div class="breadcrumb-title">
+                  <h2>About Us</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- breadcrumb-area-end -->
+      <!-- about-area -->
+      <section class="about-area about-p pt-120 pb-120 p-relative fix">
+        <div class="scroll-btn">
+          <a href="#top"
+            ><img src="img/features/scroll-top-line.png" alt="img" /> Scroll
+            Down</a
+          >
+        </div>
+        <ul class="nav nav-tabs">
+          <li>
+            <span
+              class="active"
+              id="home-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#voverview"
+              role="tab"
+              >Our goal</span
+            >
+          </li>
+          <li>
+            <span
+              id="profile-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#degre"
+              role="tab"
+              >Vision</span
+            >
+          </li>
+          <li>
+            <span
+              id="contact-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#vgallery"
+              role="tab"
+              aria-controls="vgallery"
+              aria-selected="false"
+              >Mission</span
+            >
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="voverview" role="tabpanel">
+            <div class="container">
+              <div class="row justify-content-center align-items-center">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                  <div
+                    class="s-about-img p-relative wow fadeInLeft animated"
+                    data-animation="fadeInLeft"
+                    data-delay=".4s"
+                  >
+                    <img src="img/features/about_img_01.png" alt="img" />
+                  </div>
+                </div>
+
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                  <div
+                    class="about-content s-about-content wow fadeInRight animated"
+                    data-animation="fadeInRight"
+                    data-delay=".4s"
+                  >
+                    <div class="about-title second-title pb-25">
+                      <div class="mb-50">
+                        <img src="img/bg/goal.png" alt="img" />
+                      </div>
+                      <h2>Pioneering Paths to Success</h2>
+                    </div>
+                    <p>
+                      Our team of dedicated professionals brings together a
+                      wealth of expertise and experience across various
+                      industries, allowing us to deliver tailored solutions that
+                      drive tangible results. From strategic consulting to
+                      digital transformation, we are here to support your
+                      journey towards growth.
+                    </p>
+                    <a
+                      href="contact.html"
+                      class="btn2 mt-35"
+                      data-animation="fadeInLeft"
+                      data-delay=".4s"
+                      >Read More <i class="fal fa-long-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="degre" role="tabpanel">
+            <div class="container">
+              <div class="row justify-content-center align-items-center">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                  <div
+                    class="s-about-img p-relative wow fadeInLeft animated"
+                    data-animation="fadeInLeft"
+                    data-delay=".4s"
+                  >
+                    <img src="img/features/about_img_02.png" alt="img" />
+                  </div>
+                </div>
+
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                  <div
+                    class="about-content s-about-content wow fadeInRight animated"
+                    data-animation="fadeInRight"
+                    data-delay=".4s"
+                  >
+                    <div class="about-title second-title pb-25">
+                      <div class="mb-50">
+                        <img src="img/bg/goal.png" alt="img" />
+                      </div>
+                      <h2>Pioneering Paths to Success</h2>
+                    </div>
+                    <p>
+                      Our team of dedicated professionals brings together a
+                      wealth of expertise and experience across various
+                      industries, allowing us to deliver tailored solutions that
+                      drive tangible results. From strategic consulting to
+                      digital transformation, we are here to support your
+                      journey towards growth.
+                    </p>
+                    <a
+                      href="contact.html"
+                      class="btn2 mt-35"
+                      data-animation="fadeInLeft"
+                      data-delay=".4s"
+                      >Read More <i class="fal fa-long-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="vgallery" role="tabpanel">
+            <div class="container">
+              <div class="row justify-content-center align-items-center">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                  <div
+                    class="s-about-img p-relative wow fadeInLeft animated"
+                    data-animation="fadeInLeft"
+                    data-delay=".4s"
+                  >
+                    <img src="img/features/about_img_03.png" alt="img" />
+                  </div>
+                </div>
+
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                  <div
+                    class="about-content s-about-content wow fadeInRight animated"
+                    data-animation="fadeInRight"
+                    data-delay=".4s"
+                  >
+                    <div class="about-title second-title pb-25">
+                      <div class="mb-50">
+                        <img src="img/bg/goal.png" alt="img" />
+                      </div>
+                      <h2>Pioneering Paths to Success</h2>
+                    </div>
+                    <p>
+                      Our team of dedicated professionals brings together a
+                      wealth of expertise and experience across various
+                      industries, allowing us to deliver tailored solutions that
+                      drive tangible results. From strategic consulting to
+                      digital transformation, we are here to support your
+                      journey towards growth.
+                    </p>
+                    <a
+                      href="contact.html"
+                      class="btn2 mt-35"
+                      data-animation="fadeInLeft"
+                      data-delay=".4s"
+                      >Read More <i class="fal fa-long-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- about-area-end -->
+      <!-- skill-area -->
+      <section
+        id="skill"
+        class="skill-area p-relative fix pt-120 pb-120"
+        style="background: #222222"
+      >
+        <div class="container">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-lg-6 col-md-12 col-sm-12 pr-30">
+              <div
+                class="skills-img wow fadeInLeft animated"
+                data-animation="fadeInLeft"
+                data-delay=".4s"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=vKSA_idPZkc"
+                  class="video-i popup-video"
+                >
+                  <img src="img/bg/skills-img.png" alt="img" class="img" />
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+              <div
+                class="skills-content s-about-content wow fadeInRight animated"
+                data-animation="fadeInRight"
+                data-delay=".4s"
+              >
+                <div class="skills-title pb-20">
+                  <h5>Industrial Sectors</h5>
+                  <h2>The industrial move towards automation</h2>
+                </div>
+                <p>
+                  Our cutting-edge technologies and customizable solutions
+                  streamline production processes, optimize supply chains, and
+                  enhance overall productivity. Whether it's automotive,
+                  aerospace.
+                </p>
+                <div class="mt-20">
+                  <div
+                    class="skills pt-50 pb-50"
+                    style="
+                      background-image: url(img/bg/skill-lines.png);
+                      background-repeat: repeat-y;
+                    "
+                  >
+                    <div class="skill mb-30">
+                      <div class="skill-name">Manufacturing</div>
+                      <div class="skill-bar">
+                        <div class="skill-per" id="80"></div>
+                      </div>
+                    </div>
+                    <div class="skill mb-30">
+                      <div class="skill-name">Metallurgy</div>
+                      <div class="skill-bar">
+                        <div class="skill-per" id="90"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- skill-area-end -->
+      <!-- team-area -->
+      <section class="team-area fix p-relative pt-120 pb-90">
+        <div class="container">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-xl-6 col-lg-6">
+              <div
+                class="section-title text-center mb-80 wow fadeInDown animated"
+                data-animation="fadeInDown"
+                data-delay=".4s"
+              >
+                <h5><img src="img/bg/team-number.png" alt="img" /></h5>
+                <h2>Awesome team member in <span>Dawork</span></h2>
+              </div>
+            </div>
+          </div>
+          <div class="row team-active">
+            <div class="col-xl-3 col-lg-3">
+              <div class="single-team mb-30">
+                <div class="team-thumb">
+                  <div class="brd">
+                    <img src="img/team/team01.png" alt="img" />
+                    <div class="team-social">
+                      <a href="#" class="share-alt"
+                        ><i class="fal fa-share-alt"></i
+                      ></a>
+                      <ul>
+                        <li>
+                          <a href="#"
+                            ><i class="fa-brands fa-pinterest-p"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="team-info">
+                    <p>Managing Director</p>
+                    <h4><a href="team-single.html">Ronald Richards</a></h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3">
+              <div class="single-team mb-30">
+                <div class="team-thumb">
+                  <div class="brd">
+                    <img src="img/team/team02.png" alt="img" />
+                    <div class="team-social">
+                      <a href="#" class="share-alt"
+                        ><i class="fal fa-share-alt"></i
+                      ></a>
+                      <ul>
+                        <li>
+                          <a href="#"
+                            ><i class="fa-brands fa-pinterest-p"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="team-info">
+                    <p>Managing Director</p>
+                    <h4><a href="team-single.html">Jerome Bell</a></h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3">
+              <div class="single-team mb-30">
+                <div class="team-thumb">
+                  <div class="brd">
+                    <img src="img/team/team03.png" alt="img" />
+                    <div class="team-social">
+                      <a href="#" class="share-alt"
+                        ><i class="fal fa-share-alt"></i
+                      ></a>
+                      <ul>
+                        <li>
+                          <a href="#"
+                            ><i class="fa-brands fa-pinterest-p"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="team-info">
+                    <p>Designer</p>
+                    <h4><a href="team-single.html">Floyd Miles</a></h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3">
+              <div class="single-team mb-30">
+                <div class="team-thumb">
+                  <div class="brd">
+                    <img src="img/team/team04.png" alt="img" />
+                    <div class="team-social">
+                      <a href="#" class="share-alt"
+                        ><i class="fal fa-share-alt"></i
+                      ></a>
+                      <ul>
+                        <li>
+                          <a href="#"
+                            ><i class="fa-brands fa-pinterest-p"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="team-info">
+                    <p>Designer</p>
+                    <h4><a href="team-single.html">Jack Martin</a></h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3">
+              <div class="single-team mb-30">
+                <div class="team-thumb">
+                  <div class="brd">
+                    <img src="img/team/team05.png" alt="img" />
+                    <div class="team-social">
+                      <a href="#" class="share-alt"
+                        ><i class="fal fa-share-alt"></i
+                      ></a>
+                      <ul>
+                        <li>
+                          <a href="#"
+                            ><i class="fa-brands fa-pinterest-p"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="team-info">
+                    <p>Managing Director</p>
+                    <h4><a href="team-single.html">Elizabeth Joseph</a></h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3">
+              <div class="single-team mb-30">
+                <div class="team-thumb">
+                  <div class="brd">
+                    <img src="img/team/team02.png" alt="img" />
+                    <div class="team-social">
+                      <a href="#" class="share-alt"
+                        ><i class="fal fa-share-alt"></i
+                      ></a>
+                      <ul>
+                        <li>
+                          <a href="#"
+                            ><i class="fa-brands fa-pinterest-p"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="team-info">
+                    <p>Managing Director</p>
+                    <h4><a href="team-single.html">Yellow Y. Yankee</a></h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- team-area-end -->
+    </main>
+    
+    <!-- footer -->
+    <footer class="footer-bg footer-p" style="background-color: #222">
+      <div class="footer-top pt-60 pb-20">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-xl-6 col-lg-6 col-sm-6">
+              <div class="footer-widget mb-30">
+                <div class="f-about">
+                  <div
+                    class="f-widget-title wow fadeInLeft animated"
+                    data-animation="fadeInLeft"
+                    data-delay=".4s"
+                  >
+                    <h2><img src="images/gb.png" alt="img" /></h2>
+                  </div>
+                  <p class="wow fadeInLeft animated">
+                    GB KORE ARC PVT LTD, a proud associate of KORE group of
+                    companies is leading manufacturer and importer of Welding
+                    Electrocodes.
+                  </p>
+                  <div class="footer-social wow fadeInLeft animated">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-sm-6">
+              <div class="footer-widget mb-30">
+                <div class="f-widget-title">
+                  <h2 class="wow fadeInDown animated">Essential</h2>
+                </div>
+                <div class="footer-link">
+                  <ul class="wow fadeInDown animated">
+                    <li><a href="index.html">About us</a></li>
+                    <li><a href="about.html"> Careers</a></li>
+                    <li><a href="services.html"> Prices </a></li>
+                    <li><a href="contact.html"> Services</a></li>
+                    <li><a href="blog.html">Get In Touch </a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-sm-6">
+              <div class="footer-widget mb-30">
+                <div class="f-widget-title">
+                  <h2 class="wow fadeInDown animated">More Pages</h2>
+                </div>
+                <div class="footer-link">
+                  <ul class="wow fadeInDown animated">
+                    <li><a href="index.html">Auto production</a></li>
+                    <li><a href="about.html"> Investors</a></li>
+                    <li><a href="services.html"> News </a></li>
+                    <li><a href="contact.html"> FAQ’s</a></li>
+                    <li><a href="blog.html">Contact us </a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-sm-6">
+              <div class="footer-widget mb-30">
+                <div class="f-widget-title">
+                  <h2 class="wow fadeInDown animated">Our Services</h2>
+                </div>
+                <div class="footer-link">
+                  <ul class="wow fadeInDown animated">
+                    <li><a href="index.html">Excellence Solutions</a></li>
+                    <li><a href="about.html"> Industrial Services</a></li>
+                    <li><a href="services.html"> TitanTech Solutions </a></li>
+                    <li><a href="contact.html"> Innovations Group</a></li>
+                    <li><a href="blog.html">PowerEdge Services </a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-wrap">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-12">
+              <div class="copy-text text-center">
+                Copyright &copy; GBKore ARC Pvt. Ltd. 2025. All rights reserved.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer-end -->
+
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/paroller.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/js_isotope.pkgd.min.js"></script>
+    <script src="js/imagesloaded.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/jquery.meanmenu.min.js"></script>
+    <script src="js/parallax-scroll.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/element-in-view.js"></script>
+    <script src="js/vanilla-tilt.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>

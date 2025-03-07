@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Dawork - Next-Gen Factory & Industry HTML Template</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/gb.png" />
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="fontawesome-pro/css/all.min.css" />
+    <link rel="stylesheet" href="css/dripicons.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/meanmenu.css" />
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/default.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/products.css" />
+  </head>
+  <body>
+    <!--  Preloader  -->
+    <div id="preloader">
+      <div id="loading"></div>
+    </div>
+    <!--  Preloader end  -->
+    <!-- header -->
+    <header class="header-area header-three py-3">
+      <div id="header-sticky" class="menu-area">
+        <div class="container">
+          <div class="second-menu">
+            <div class="row align-items-center">
+              <div class="col-lg-2 col-md-12 d-lg-none d-x-none">
+                <div class="logo">
+                  <a href="index.html"
+                    ><img src="images/logo.png" alt="logo"
+                  /></a>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-12 d-none d-md-block">
+                <div class="logo">
+                  <a href="index.html"
+                    ><img src="img/logo/1logo.png" alt="logo"
+                  /></a>
+                </div>
+              </div>
+              <div class="col-xl-10 col-lg-10">
+                <div class="d-flex align-content-center justify-content-end">
+                  <div class="main-menu">
+                    <nav id="mobile-menu">
+                      <ul>
+                        <li>
+                          <a href="/">Home</a>
+                        </li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li class="has-sub">
+                          <a href="products.html">Product</a>
+                          <ul>
+                            <li class="position-relative searchform">
+                              <i class="fal fa-search position-absolute" style="top:14px;right:12px;"></i>
+                              <input
+                                type="text"
+                                placeholder="Search"
+                              />
+                            </li>
+                            <li>
+                              <a href="/">ARC</a>
+                              <ul class="sub-menu">
+                                <li><a href="product-details.html">ARC200</a></li>
+                                <li><a href="product-details.html">ARC222</a></li>
+                                <li><a href="product-details.html">ARC270ST</a></li>
+                                <li><a href="product-details.html">ARC300</a></li>
+                                <li><a href="product-details.html">ARC400HD</a></li>
+                                <li><a href="product-details.html">MMA-400GI</a></li>
+                                <li><a href="product-details.html">MMA-400IJ</a></li>
+                              </ul>
+                            </li>
+                            <li>
+                              <a href="/">TIG</a>
+                              <ul class="sub-menu">
+                                <li><a href="product-details.html">TIG200A</a></li>
+                                <li><a href="product-details.html">TIG300</a></li>
+                                <li><a href="product-details.html">TIG315BP</a></li>
+                                <li><a href="product-details.html">TIG200M</a></li>
+                                <li><a href="product-details.html">TIG400Mos</a></li>
+                                <li><a href="product-details.html">TIG400P</a></li>
+                                <li><a href="product-details.html">TIG315AC/DC</a></li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </li>
+                        <li><a href="#">Awards</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                  <div class="login text-right d-none d-lg-block">
+                    <ul>
+                      <!-- <li><a href="#" class="menu-tigger"><img src="img/icon/search.png" alt="logo"></a></li> -->
+                      <li class="position-relative searchform">                        
+                        <i class="fal fa-search position-absolute" style="top:14px;right:12px;"></i>
+                        <input
+                          type="text"
+                          id="search"
+                          placeholder="Search Products"
+                        />
+                        <ul class="search-results"></ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-2 col-lg-2"></div>
+              <div class="col-12">
+                <div class="mobile-menu"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header-end -->
+    <!-- offcanvas-area -->
+    <div class="offcanvas-menu">
+      <span class="menu-close"><i class="fas fa-times"></i></span>
+      <form
+        role="search"
+        method="get"
+        id="searchform"
+        class="searchform"
+        action=""
+      >
+        <input type="text" name="s" id="search" placeholder="Search" />
+        <button><i class="fa fa-search"></i></button>
+      </form>
+
+      <div id="cssmenu3" class="menu-one-page-menu-container">
+        <ul class="menu">
+          <li class="menu-item menu-item-type-custom menu-item-object-custom">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="menu-item menu-item-type-custom menu-item-object-custom">
+            <a href="about.html">About Us</a>
+          </li>
+          <li class="menu-item menu-item-type-custom menu-item-object-custom">
+            <a href="services.html">Services</a>
+          </li>
+          <li class="menu-item menu-item-type-custom menu-item-object-custom">
+            <a href="pricing.html">Pricing </a>
+          </li>
+          <li class="menu-item menu-item-type-custom menu-item-object-custom">
+            <a href="team.html">Team </a>
+          </li>
+
+          <li class="menu-item menu-item-type-custom menu-item-object-custom">
+            <a href="projects.html">Cases Study</a>
+          </li>
+          <li class="menu-item menu-item-type-custom menu-item-object-custom">
+            <a href="blog.html">Blog</a>
+          </li>
+          <li class="menu-item menu-item-type-custom menu-item-object-custom">
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <div id="cssmenu2" class="menu-one-page-menu-container">
+        <ul id="menu-one-page-menu-12" class="menu">
+          <li class="menu-item menu-item-type-custom menu-item-object-custom">
+            <a href="#home"><span>+8 12 3456897</span></a>
+          </li>
+          <li class="menu-item menu-item-type-custom menu-item-object-custom">
+            <a href="#howitwork"><span>info@example.com</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="offcanvas-overly"></div>
+    <!-- offcanvas-end -->
+    <!-- main-area -->
+    <main>
+      <!-- slider-area -->
+      <section class="slider-area p-relative">
+        <div class="slider-active" style="background: #101010">
+          <div
+            class="single-slider slider-bg d-flex align-items-center"
+            style="
+              background-image: url(images/slide2.jpg);
+              background-size: cover;
+            "
+          >
+            <div class="container">
+              <div class="row justify-content-center align-items-center">
+                <div class="col-lg-5 col-md-8">
+                  <div class="slider-content s-slider-content mt-100 pt-50">
+                    <h2 data-animation="fadeInUp" data-delay=".4s">
+                      GB KORE ARC PVT LTD
+                    </h2>
+                    <p data-animation="fadeInUp" data-delay=".6s">
+                      GB KORE ARC PVT LTD, a proud associate of KORE group of
+                      companies is leading manufacturer and importer of Welding
+                      Electrocodes.
+                    </p>
+                    <div class="slider-btn mt-30 mb-105">
+                      <a
+                        href="contact.html"
+                        class="btn ss-btn mr-15"
+                        data-animation="fadeInLeft"
+                        data-delay=".4s"
+                        ><i class="fal fa-long-arrow-right"></i> Read more</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-7 col-md-4 p-relative"></div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="single-slider slider-bg d-flex align-items-center"
+            style="
+              background-image: url(images/slide1.jpg);
+              background-size: cover;
+            "
+          >
+            <div class="container">
+              <div class="row justify-content-center align-items-center">
+                <div class="col-lg-5 col-md-5">
+                  <div class="slider-content s-slider-content mt-100 pt-50">
+                    <h2 data-animation="fadeInUp" data-delay=".4s">
+                      Engineering Takes Forms
+                    </h2>
+                    <p data-animation="fadeInUp" data-delay=".6s">
+                      Capitalise on low hanging fruit to identify a ballpark
+                      value added activity to beta test.
+                    </p>
+                    <div class="slider-btn mt-30 mb-105">
+                      <a
+                        href="contact.html"
+                        class="btn ss-btn mr-15"
+                        data-animation="fadeInLeft"
+                        data-delay=".4s"
+                        ><i class="fal fa-long-arrow-right"></i> Read more</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-7 col-md-7 p-relative"></div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="single-slider slider-bg d-flex align-items-center"
+            style="
+              background-image: url(images/slide3.jpg);
+              background-size: cover;
+            "
+          >
+            <div class="container">
+              <div class="row justify-content-center align-items-center">
+                <div class="col-lg-5 col-md-5">
+                  <div class="slider-content s-slider-content mt-100 pt-50">
+                    <h2 data-animation="fadeInUp" data-delay=".4s">
+                      Engineering Takes Forms
+                    </h2>
+                    <p data-animation="fadeInUp" data-delay=".6s">
+                      Capitalise on low hanging fruit to identify a ballpark
+                      value added activity to beta test.
+                    </p>
+                    <div class="slider-btn mt-30 mb-105">
+                      <a
+                        href="contact.html"
+                        class="btn ss-btn mr-15"
+                        data-animation="fadeInLeft"
+                        data-delay=".4s"
+                        ><i class="fal fa-long-arrow-right"></i> Read more</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-7 col-md-7 p-relative"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="badge"><img src="img/bg/badge.png" alt="feature" /></div>
+      </section>
+      <!-- slider-area-end -->
+
+      <!-- products-area -->
+      <section
+        class="service pb-120 p-relative fix"
+        style="background: #f3f3f3"
+      >
+        <div class="scrollbox2 pe-none">
+          <div class="scrollbox scrollbox--secondary scrollbox--reverse">
+            <div class="scrollbox__item">
+              <div class="section-t"><h2>Our Products</h2></div>
+            </div>
+            <div class="scrollbox__item">
+              <div class="section-t"><h2>Our Products</h2></div>
+            </div>
+            <div class="scrollbox__item">
+              <div class="section-t"><h2>Our Products</h2></div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+              <ul class="services-active">
+                <li>
+                  <div class="service-box-slider">
+                    <div class="text">
+                      <h5>01</h5>
+                      <h3>ARC 250</h3>
+                      <p>
+                        The Arc Welder ARC 250 is a powerful, efficient welding
+                        machine with 250A output, ideal for industrial and
+                        heavy-duty welding applications.
+                      </p>
+                      <a
+                        href="/"
+                        class="btn2 mt-35"
+                        data-animation="fadeInLeft"
+                        data-delay=".4s"
+                        >Read More <i class="fal fa-long-arrow-right"></i
+                      ></a>
+                    </div>
+                    <div class="img">
+                      <img src="images/products/product-1.png" alt="img" />
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="service-box-slider">
+                    <div class="text">
+                      <h5>02</h5>
+                      <h3>MMA 400GI</h3>
+                      <p>
+                        The MMA400GI is a heavy-duty inverter arc welder with
+                        400A output, ensuring efficient, stable, and
+                        high-performance welding for industrial use.
+                      </p>
+                      <a
+                        href="/"
+                        class="btn2 mt-35"
+                        data-animation="fadeInLeft"
+                        data-delay=".4s"
+                        >Read More <i class="fal fa-long-arrow-right"></i
+                      ></a>
+                    </div>
+                    <div class="img">
+                      <img src="images/products/product-2.png" alt="img" />
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="service-box-slider">
+                    <div class="text">
+                      <h5>03</h5>
+                      <h3>ZX7-250</h3>
+                      <p>
+                        The ZX7-250 is a compact inverter arc welder with 250A
+                        output, offering stable performance, energy efficiency,
+                        and suitability for various welding tasks.
+                      </p>
+                      <a
+                        href="/"
+                        class="btn2 mt-35"
+                        data-animation="fadeInLeft"
+                        data-delay=".4s"
+                        >Read More <i class="fal fa-long-arrow-right"></i
+                      ></a>
+                    </div>
+                    <div class="img">
+                      <img src="images/products/product-3.png" alt="img" />
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- products-area end-->
+
+      <!-- about-area -->
+      <section class="about-area about-p pt-120 pb-120 p-relative fix">
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="voverview" role="tabpanel">
+            <div class="container">
+              <div class="row justify-content-center align-items-center">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                  <div
+                    class="s-about-img p-relative wow fadeInLeft animated"
+                    data-animation="fadeInLeft"
+                    data-delay=".4s"
+                  >
+                    <img src="images/welding.jpg" alt="img" />
+                  </div>
+                </div>
+
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                  <div
+                    class="about-content s-about-content wow fadeInRight animated"
+                    data-animation="fadeInRight"
+                    data-delay=".4s"
+                  >
+                    <div class="about-title second-title pb-25">
+                      <h2>Pioneering Paths to Success</h2>
+                    </div>
+                    <p>
+                      Our team of dedicated professionals brings together a
+                      wealth of expertise and experience across various
+                      industries, allowing us to deliver tailored solutions that
+                      drive tangible results. From strategic consulting to
+                      digital transformation, we are here to support your
+                      journey towards growth.
+                    </p>
+                    <a
+                      href="contact.html"
+                      class="btn2 mt-35"
+                      data-animation="fadeInLeft"
+                      data-delay=".4s"
+                      >Read More <i class="fal fa-long-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- about-area-end -->
+
+      <!-- products slide START-->
+      <section class="service p-relative fix" style="background: #f3f3f3">
+        <div class="scrollbox2 pe-none">
+          <div class="scrollbox scrollbox--secondary scrollbox--reverse">
+            <div class="scrollbox__item">
+              <div class="section-t"><h2>Our Products</h2></div>
+            </div>
+            <div class="scrollbox__item">
+              <div class="section-t"><h2>Our Products</h2></div>
+            </div>
+            <div class="scrollbox__item">
+              <div class="section-t"><h2>Our Products</h2></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container py-5">
+          <div class="row d-flex justify-content-center">
+            <ul class="products-active">
+              <li class="service-box-slider d-flex justify-content-center">
+                <div class="card">
+                  <p class="card__title">ARC 250</p>
+                  <img
+                    src="images/products/product-1.png"
+                    class="product-image"
+                    alt="Product Image"
+                  />
+                  <div class="card__content">
+                    <p class="card__title1">ARC 250</p>
+                    <p class="card__description">
+                      The Arc Welder ARC 250 is a powerful, efficient welding
+                      machine with 250A output, ideal for industrial and
+                      heavy-duty welding applications.
+                    </p>
+                    <div class="button-container">
+                      <a href="/product-details.html">
+                        <button class="cssbuttons-io-button">
+                          View Product
+                          <div class="icon">
+                            <svg
+                              height="24"
+                              width="24"
+                              viewBox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path d="M0 0h24v24H0z" fill="none"></path>
+                              <path
+                                d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                                fill="currentColor"
+                              ></path>
+                            </svg>
+                          </div>
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="service-box-slider d-flex justify-content-center">
+                <div class="card">
+                  <p class="card__title">MMA400GI</p>
+                  <img
+                    src="images/products/product-2.png"
+                    class="product-image"
+                    alt="Product Image"
+                  />
+                  <div class="card__content">
+                    <p class="card__title1">MMA400GI</p>
+                    <p class="card__description">
+                      The MMA400GI is a heavy-duty inverter arc welder with 400A
+                      output, ensuring efficient, stable, and high-performance,
+                      welding for industrial use.
+                    </p>
+                    <div class="button-container">
+                      <a href="/product-details.html">
+                        <button class="cssbuttons-io-button">
+                          View Product
+                          <div class="icon">
+                            <svg
+                              height="24"
+                              width="24"
+                              viewBox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path d="M0 0h24v24H0z" fill="none"></path>
+                              <path
+                                d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                                fill="currentColor"
+                              ></path>
+                            </svg>
+                          </div>
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="service-box-slider d-flex justify-content-center">
+                <div class="card">
+                  <p class="card__title">ZX7-250</p>
+                  <img
+                    src="images/products/product-3.png"
+                    class="product-image"
+                    alt="Product Image"
+                  />
+                  <div class="card__content">
+                    <p class="card__title1">ZX7-250</p>
+                    <p class="card__description">
+                      The ZX7-250 is a compact inverter arc welder with 250A
+                      output, offering stable performance, energy efficiency,
+                      and suitability for various welding tasks.
+                    </p>
+                    <div class="button-container">
+                      <a href="/about.html">
+                        <button class="cssbuttons-io-button">
+                          View Product
+                          <div class="icon">
+                            <svg
+                              height="24"
+                              width="24"
+                              viewBox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path d="M0 0h24v24H0z" fill="none"></path>
+                              <path
+                                d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                                fill="currentColor"
+                              ></path>
+                            </svg>
+                          </div>
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="service-box-slider d-flex justify-content-center">
+                <div class="card">
+                  <p class="card__title">ARC 630</p>
+                  <img
+                    src="images/products/product-4.png"
+                    class="product-image"
+                    alt="Product Image"
+                  />
+                  <div class="card__content">
+                    <img
+                      src="images/logo.png"
+                      class="mx-auto mt-4"
+                      alt="gbkore"
+                    />
+                    <p class="card__title1">ARC 630</p>
+                    <p class="card__description">
+                      The ARC 630 is a high-performance arc welder with 630A
+                      output, designed for heavy-duty industrial welding
+                      applications.
+                    </p>
+                    <div class="button-container">
+                      <a href="/about.html">
+                        <button class="cssbuttons-io-button">
+                          View Product
+                          <div class="icon">
+                            <svg
+                              height="24"
+                              width="24"
+                              viewBox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path d="M0 0h24v24H0z" fill="none"></path>
+                              <path
+                                d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                                fill="currentColor"
+                              ></path>
+                            </svg>
+                          </div>
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- products slide end-->
+
+      <!-- about-area -->
+      <section class="about-area about-p pt-120 pb-120 p-relative fix">
+        <div class="tab-content">
+          <div class="tab-pane fade show active" role="tabpanel">
+            <div class="container">
+              <div class="row justify-content-center align-items-center">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                  <div
+                    class="about-content s-about-content wow fadeInLeft animated"
+                    data-animation="fadeInLeft"
+                    data-delay=".4s"
+                  >
+                    <div class="about-title second-title pb-25">
+                      <h2>Pioneering Paths to Success</h2>
+                    </div>
+                    <p>
+                      Our team of dedicated professionals brings together a
+                      wealth of expertise and experience across various
+                      industries, allowing us to deliver tailored solutions that
+                      drive tangible results. From strategic consulting to
+                      digital transformation, we are here to support your
+                      journey towards growth.
+                    </p>
+                    <a
+                      href="contact.html"
+                      class="btn2 mt-35"
+                      data-animation="fadeInRight"
+                      data-delay=".4s"
+                      >Read More <i class="fal fa-long-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                  <div
+                    class="s-about-img p-relative wow fadeInRight animated"
+                    data-animation="fadeInRight"
+                    data-delay=".4s"
+                  >
+                    <img src="images/welding-2.jpg" alt="img" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- about-area-end -->
+
+      <!-- contact-area -->
+      <section
+        class="contact-home-area pt-120 pb-120 p-relative fix"
+        style="background-color: #f3f3f3"
+      >
+        <div class="animations-01">
+          <img src="img/bg/communication.png" alt="an-img-01" />
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-xl-4">
+              <div
+                class="section-title center-align wow fadeInDown animated"
+                data-animation="fadeInDown"
+                data-delay=".4s"
+              >
+                <h2>Let’s Start Working</h2>
+              </div>
+              <div class="ab-coutner">
+                <ul>
+                  <li>
+                    <div
+                      class="single-counter"
+                      data-aos="fade-up"
+                      data-aos-duration="1300"
+                    >
+                      <div class="counter p-relative">
+                        <div class="text">
+                          <span class="count">250</span><span>+</span>
+                          <p>Project completed</p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div
+                      class="single-counter"
+                      data-aos="fade-up"
+                      data-aos-duration="1300"
+                    >
+                      <div class="counter p-relative">
+                        <div class="text">
+                          <span class="count">550</span><span>+</span>
+                          <p>Our Happy Client</p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-8 col-xl-8">
+              <div class="contact-bg02 contact-bg-gry">
+                <div
+                  class="section-title mb-20 wow fadeInDown animated"
+                  data-animation="fadeInDown"
+                  data-delay=".4s"
+                >
+                  <h2>Let’s grow your business</h2>
+                </div>
+                <p>
+                  Your email address will not be published. Required fields are
+                  marked
+                </p>
+                <form
+                  action="https://htmldemo.zcubethemes.com/dawork/mail.php"
+                  method="post"
+                  class="contact-form mt-30 wow fadeInUp animated"
+                  data-animation="fadeInUp"
+                  data-delay=".4s"
+                >
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <div class="contact-field p-relative c-name mb-20">
+                        <input
+                          type="text"
+                          id="firstn"
+                          name="firstn"
+                          placeholder="First Name"
+                          required
+                        />
+                      </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                      <div class="contact-field p-relative c-subject mb-20">
+                        <input
+                          type="text"
+                          id="email"
+                          name="email"
+                          placeholder="Email"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="contact-field p-relative c-subject mb-20">
+                        <input
+                          type="text"
+                          id="phone"
+                          name="phone"
+                          placeholder="Phone No."
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="contact-field p-relative c-name mb-20">
+                        <input
+                          type="text"
+                          id="subject"
+                          name="subject"
+                          placeholder="Subject"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="contact-field p-relative c-message mb-30">
+                        <textarea
+                          name="message"
+                          id="message"
+                          cols="30"
+                          rows="10"
+                          placeholder="Write comments"
+                        ></textarea>
+                      </div>
+                      <div class="slider-btn">
+                        <button
+                          href="contact.html"
+                          class="btn2 mt-25"
+                          data-animation="fadeInLeft"
+                          data-delay=".4s"
+                        >
+                          Submit Now <i class="fal fa-long-arrow-right"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- contact-area-end -->
+    </main>
+    <!-- main-area-end -->
+
+    <!-- footer -->
+    <footer class="footer-bg footer-p" style="background-color: #222">
+      <div class="footer-top pt-60 pb-20">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-xl-6 col-lg-6 col-sm-6">
+              <div class="footer-widget mb-30">
+                <div class="f-about">
+                  <div
+                    class="f-widget-title wow fadeInLeft animated"
+                    data-animation="fadeInLeft"
+                    data-delay=".4s"
+                  >
+                    <h2><img src="images/gb.png" alt="img" /></h2>
+                  </div>
+                  <p class="wow fadeInLeft animated">
+                    GB KORE ARC PVT LTD, a proud associate of KORE group of
+                    companies is leading manufacturer and importer of Welding
+                    Electrocodes.
+                  </p>
+                  <div class="footer-social wow fadeInLeft animated">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-sm-6">
+              <div class="footer-widget mb-30">
+                <div class="f-widget-title">
+                  <h2 class="wow fadeInDown animated">Essential</h2>
+                </div>
+                <div class="footer-link">
+                  <ul class="wow fadeInDown animated">
+                    <li><a href="index.html">About us</a></li>
+                    <li><a href="about.html"> Careers</a></li>
+                    <li><a href="services.html"> Prices </a></li>
+                    <li><a href="contact.html"> Services</a></li>
+                    <li><a href="blog.html">Get In Touch </a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-sm-6">
+              <div class="footer-widget mb-30">
+                <div class="f-widget-title">
+                  <h2 class="wow fadeInDown animated">More Pages</h2>
+                </div>
+                <div class="footer-link">
+                  <ul class="wow fadeInDown animated">
+                    <li><a href="index.html">Auto production</a></li>
+                    <li><a href="about.html"> Investors</a></li>
+                    <li><a href="services.html"> News </a></li>
+                    <li><a href="contact.html"> FAQ’s</a></li>
+                    <li><a href="blog.html">Contact us </a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-sm-6">
+              <div class="footer-widget mb-30">
+                <div class="f-widget-title">
+                  <h2 class="wow fadeInDown animated">Our Services</h2>
+                </div>
+                <div class="footer-link">
+                  <ul class="wow fadeInDown animated">
+                    <li><a href="index.html">Excellence Solutions</a></li>
+                    <li><a href="about.html"> Industrial Services</a></li>
+                    <li><a href="services.html"> TitanTech Solutions </a></li>
+                    <li><a href="contact.html"> Innovations Group</a></li>
+                    <li><a href="blog.html">PowerEdge Services </a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-wrap">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-12">
+              <div class="copy-text text-center">
+                Copyright &copy; GBKore ARC Pvt. Ltd. 2025. All rights reserved.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer-end -->
+
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/paroller.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/js_isotope.pkgd.min.js"></script>
+    <script src="js/imagesloaded.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/jquery.meanmenu.min.js"></script>
+    <script src="js/parallax-scroll.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/element-in-view.js"></script>
+    <script src="js/vanilla-tilt.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>

@@ -1,0 +1,490 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&amp;display=swap");
+
+.card {
+  margin: 30px 0;
+  position: relative;
+  width: 400px;
+  height: 500px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  perspective: 1000px;
+  box-shadow: 0 0 0 5pxrgba (152, 152, 152, 0.5);
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card img {
+  width: 300px;
+  fill: #333;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card .card__title {
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card__content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #efefef91;
+  transform: scale(0);
+  transform-origin: bottom;
+  transition: all 0.2s ease;
+  text-align: center;
+}
+
+.card__content .card__title1 {
+  margin: 60px 20px 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 35px;
+  color: #333;
+  font-weight: 700;
+}
+
+.card:hover .card__content {
+  transform: scale(1);
+}
+
+.card__content .card__title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 35px;
+  color: #333;
+  font-weight: 700;
+}
+
+.card__title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 35px;
+  color: #333;
+  font-weight: 700;
+}
+
+.card:hover img.product-image,
+.card:hover .card__title {
+  scale: 1;
+  filter: blur(15px);
+}
+
+.card__description {
+  text-align: center;
+  margin: 40px 25px 0;
+  font-size: 18px;
+  color: #494949;
+  line-height: 1.4;
+}
+
+.button-container {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.cssbuttons-io-button {
+  background: #fff;
+  color: white;
+  font-family: inherit;
+  padding: 0.35em;
+  padding-left: 1.2em;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 0.9em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0 0 1.6em 1.2em #fe5716;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-right: 3.3em;
+  cursor: pointer;
+}
+
+.cssbuttons-io-button .icon {
+  background: #fcfcfc;
+  margin-left: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.7em;
+  box-shadow: 0.1em 0.1em 0.6em 0.2em #fe5716;
+  right: 0.3em;
+  transition: all 0.3s;
+}
+
+.cssbuttons-io-button:hover .icon {
+  width: calc(100% - 0.6em);
+}
+
+.cssbuttons-io-button .icon svg {
+  width: 1.1em;
+  transition: transform 0.3s;
+  color: #fe5716;
+}
+
+.cssbuttons-io-button:hover .icon svg {
+  transform: translateX(0.1em);
+}
+
+.cssbuttons-io-button:active .icon {
+  transform: scale(0.95);
+}
+
+/* ------------ PRODUCT DETAILS SECTION ------------- */
+
+.products-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.products-header img {
+  width: 100vw;
+  object-fit: cover;
+  height: 250px;
+}
+
+.header-content {
+  position: absolute;
+  width: 100%;
+  padding: 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-content h1 {
+  color: #fff;
+}
+
+
+.product-details{
+  padding: 100px 0;
+}
+
+/* ----- PRODUCT IMAGE CSS ---- */
+
+.image-container img{
+  display: flex;
+  margin:0 auto;
+  height: 500px;
+  object-fit: contain;
+}
+
+.image-container img:hover{
+  transform: scale(1.05);
+}
+
+/* .image-text{
+  padding-top:20px; 
+}
+.image-text h4 {
+  color:#777;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding-top: 10px;
+} */
+
+.social-container{
+  padding-top:40px;
+  display:flex;
+  justify-content:center; 
+}
+
+
+.wrapper .button {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  float: left;
+  text-decoration: none;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover {
+  width: 200px;
+}
+.wrapper .button .icon {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  color: #000;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1):hover .icon {
+  background: #4267B2;
+}
+.wrapper .button:nth-child(2):hover .icon {
+  background: #222222;
+}
+.wrapper .button:nth-child(3):hover .icon {
+  background: #25D366;
+}
+
+.wrapper .button:nth-child(4):hover .icon {
+  background: #fe5716;
+}
+
+.wrapper .button .icon i {
+  font-size: 22px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+
+.wrapper .button:hover .icon i {
+  color: #fff;
+}
+.wrapper .button span {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1) span {
+  color: #4267B2;
+}
+.wrapper .button:nth-child(2) span {
+  color:#222222;
+}
+.wrapper .button:nth-child(3) span {
+  color: #25D366;
+}
+.wrapper .button:nth-child(4) span {
+  color: #fe5716;
+}
+/* -------- PRODUCT DETAILS CSS --------- */
+
+
+.details-container{
+  padding:0 80px 0 100px;
+}
+
+.details-container h4{
+  color: #333;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .5px;
+  margin:0 0 10px 0;
+}
+
+.details-container h2{
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 10px 0 0 0;
+}
+
+.details-container h2:after{
+  content: "";
+  display: block;
+  width:85%;
+  height: 2px;
+  background: #fe5716;
+  margin: 20px 0;
+  transition: all 0.5s ease;
+}
+
+.details-container:hover h2:after{
+  width: 100%;
+}
+
+.details-container p{
+  font-size:16px;
+  letter-spacing:1px; 
+}
+
+.list-container{
+  padding-top:20px;
+}
+
+.list-container h3{
+  font-size:22px;
+  text-transform:uppercase;
+  letter-spacing:1px; 
+}
+
+.list-container li{
+  position:relative;
+  padding-left:20px;
+}
+
+.list-container li:before{
+  font-family: "Font Awesome 5 Pro";
+  content: "\f101";
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 25px;
+  color: #fe5716;
+}
+
+/* --------- TABLE CSS --------- */
+
+.table-container{
+  padding: 60px 0 0 0;
+}
+
+.table-title h2{
+  font-size:26px;
+  text-transform:uppercase;
+  letter-spacing:1px;
+  padding-top:20px;
+  padding-bottom:5px;
+}
+
+tbody tr th:nth-child(1){
+  width:30%;
+  vertical-align:middle;
+}
+
+td{
+  text-align:center;
+}
+
+thead tr th:not(:first-child){
+  text-align:center
+}
+
+tbody tr:nth-child(even){
+  background-color: #f5f5f5;
+}
+
+.related-products{
+  padding-top:40px;
+}
+
+
+.listing-container{
+  height:100%;
+}
+
+.listing-product-img{
+  position:relative;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+
+.listing-product-img img{
+  height:180px;
+  object-fit:contain;
+  position:relative;
+  z-index:1;
+}
+
+.listing-product-img span{
+  position:absolute;
+  margin:0;
+  top:30px;
+}
+
+.listing-product-img span a{
+  font-size:120px;
+  color:white;
+}
+
+.product:hover img{
+  transform: scale(1.3);
+}
+
+.category-list{
+  padding: 30px 0;
+  position: relative;
+}
+
+/* .category-list::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  width:2px;
+  height: 100%;
+  background: #fe5716;
+  margin: 20px 0;
+} */
+
+.list-heading h3{
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.list-title{
+  padding: 10px 0;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+  appearance: none;
+  height: 16px;
+  width: 16px;
+  border: 2px solid #ccc;
+  border-radius: 3px; 
+  background-color: #fff;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #fe5716; 
+  border-color: #fe5716; 
+}
+
+input[type="checkbox"]:checked::before {
+  content: "\f00c"; 
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 700;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 10px;
+}
+
+label {
+  font-size: 16px;
+}
