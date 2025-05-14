@@ -1273,12 +1273,14 @@ transform: inherit;
   margin-bottom: 20px;
 }
     .service-box-slider .img {
-  float: right;
-  width: 100%;
+  float: none;
+  width: 250px;
+  margin:auto;
 }
     .service-box-slider .text {
   float: left;
   width: 100%;
+  text-align: center;
   padding-right: 0;
   padding: 120px 0 30px;
 }
@@ -2625,6 +2627,9 @@ width: 100%;
 
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+     .company-section {
+  padding: 60px 0px;
+}
     .team-thumb img {
     height: auto;
     width: 100%;
@@ -2713,5 +2718,11 @@ width: 100%;
 }
     .button-group button {
     margin: 0 2px;
-
+    }
+     .img{
+        width: 250px;
+    margin: auto;
+    display: flex;
+    }
 }
+
