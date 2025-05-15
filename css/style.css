@@ -6811,6 +6811,7 @@ section:hover .section-title h2::before {
 .main-menu .has-sub:hover > ul {
   visibility: visible;
   margin-top: 0px;
+  margin-left: -10px;
   opacity: 1;
 }
 .main-menu .has-sub > ul > .has-sub > ul {
@@ -12132,7 +12133,6 @@ blockquote cite {
     position: relative;
   background-size: cover;
   background-position: center;
-  height: calc(100vh - 103.6px);
 }
 .credential-img {
   width: 100%;
