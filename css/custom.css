@@ -78,7 +78,7 @@ ul.search-results li:not(:last-of-type) {
   background: #017f3f;
 }
 .sub-menu {
-  padding-left: 10px;
+  padding:5px 10px 0px 10px;
   position: absolute;
   background: #fff;
   min-width: 250px;
@@ -98,6 +98,16 @@ ul.search-results li:not(:last-of-type) {
 }
 .main-menu .has-sub li .sub-menu li {
   border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0px;
+}
+
+.main-menu .has-sub li .sub-menu li img{
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
 }
 
 .main-menu .has-sub > ul {

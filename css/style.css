@@ -117,9 +117,9 @@ body {
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 3px 4px 15px #0000001a;
   position: absolute;
-  width: 100vw; 
+  width: 100vw;
   left: -25px;
-  right: 0px; 
+  right: 0px;
 }
 .mean-container .mean-nav ul {
   overflow: hidden;
@@ -11670,6 +11670,7 @@ div.single-cta:last-child {
   min-width: 100%;
 }
 .footer-top.wpding .menu .sub-menu li {
+  display: flex;
   float: none;
   line-height: 40px;
 }
@@ -12111,7 +12112,7 @@ blockquote cite {
   font-size: 38px;
 }
 
- .highlight {
+.highlight {
   color: #fe5716;
 }
 .company-section {
@@ -12127,11 +12128,17 @@ blockquote cite {
 .section-gapping {
   padding: 70px 20px;
 }
+.banner-img{
+    position: relative;
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 103.6px);
+}
 .credential-img {
   width: 100%;
   padding: 0;
   margin-bottom: 20px;
-  max-height: 600px;
+  max-height: 400px;
   object-fit: contain;
   background-color: transparent;
 }
@@ -12140,7 +12147,7 @@ blockquote cite {
   font-weight: bold;
   text-transform: uppercase;
   color: #fe5716;
-  margin-top: 20px;
+  text-align: center;
 }
 
 .right-down {
@@ -12148,7 +12155,7 @@ blockquote cite {
   height: 150px;
   object-fit: contain;
 }
-.top{
+.top {
   margin-top: 40px;
 }
 
@@ -12159,10 +12166,10 @@ blockquote cite {
   .section-title {
     font-size: 2rem;
   }
-  .top{
-    margin-top: 0; 
+  .top {
+    margin-top: 0;
   }
   .service-box-slider .img {
-  margin-right: 0px;
-}
+    margin-right: 0px;
+  }
 }

@@ -1249,6 +1249,9 @@ transform: inherit;
 
 /* small mobile :320px. */
 @media (max-width: 767px) {
+   .banner-img{
+        height: auto;
+    }
     .h-service,.services-hover {
   padding: 75% 30px 0;
 }
