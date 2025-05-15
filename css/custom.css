@@ -77,6 +77,20 @@ ul.search-results li:not(:last-of-type) {
 .search-results::-webkit-scrollbar-thumb {
   background: #017f3f;
 }
+.catogory-menu{
+   padding:5px 10px 0px 10px;
+  position: absolute;
+  background: #fff;
+  min-width: 250px;
+  transform: translateX(250px);
+  border-top: 4px solid #fe5716;
+  visibility: hidden;
+  margin-left: -30px;
+  opacity: 0;
+  z-index: 1;
+  transition: all 0.3s ease-in-out;
+  top: 0px;
+}
 .sub-menu {
   padding:5px 10px 0px 10px;
   position: absolute;
@@ -91,10 +105,16 @@ ul.search-results li:not(:last-of-type) {
   transition: all 0.3s ease-in-out;
   top: 0px;
 }
-.main-menu .has-sub li:hover > ul {
+
+.main-menu .has-sub li:hover > .catogory-menu {
   visibility: visible;
   margin-left: -15px;
   opacity: 1;
+}
+.catogory-menu:hover > .sub-menu {
+  visibility: visible;
+  opacity: 1;
+ margin-left: -15px;
 }
 .main-menu .has-sub li .sub-menu li {
   border-bottom: 1px solid #ddd;
@@ -116,9 +136,7 @@ ul.search-results li:not(:last-of-type) {
 .main-menu .has-sub > ul .search-btn {
   background: transparent;
 }
-.main-menu ul li:first-child {
-  padding-bottom: 10px;
-}
+
 
 .services-active button.slick-nav, .products-active button.slick-nav {
   position: absolute;
@@ -145,3 +163,4 @@ ul.search-results li:not(:last-of-type) {
 .services-active button.slick-prev, .products-active button.slick-prev {
   left: -15%;
 }
+
