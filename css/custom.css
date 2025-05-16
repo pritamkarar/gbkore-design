@@ -173,3 +173,10 @@ ul.search-results li:not(:last-of-type) {
 .has-sub:hover > a .arrow {
   transform: rotate(180deg);
 }
+
+
+.carousel-image img{
+  height:400px;
+  object-fit: contain;
+  width: 100%;  
+}
