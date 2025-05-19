@@ -60,7 +60,13 @@
                         </li>
                         <li><a href="about.html">About Us</a></li>
                         <li class="has-sub">
-                          <a href="products.html">Product</a>
+                          <a href="products.html"
+                            >Product
+                            <i
+                              style="font-size: 14px"
+                              class="fal fa-chevron-down arrow"
+                            ></i>
+                          </a>
                           <ul>
                             <li class="position-relative searchform">
                               <i
@@ -73,66 +79,15 @@
                               <a href="/">ARC</a>
                               <ul class="catogory-menu">
                                 <li class="has-sub">
-                                  <a href="/">Mosfet</a>
-                                  <ul class="sub-menu">
-                                    <li>
-                                      <a href="product-details.html">ARC 200</a>
-                                      <img
-                                        src="images/products/product-1.png"
-                                        alt=""
-                                      />
-                                    </li>
-                                    <li>
-                                      <a href="product-details.html">ARC 270ST</a>
-                                      <img
-                                        src="images/products/product-1.png"
-                                        alt=""
-                                      />
-                                    </li>
-                                    <li>
-                                      <a href="product-details.html">ARC270ST</a>
-                                    </li>
-                                    <li>
-                                      <a href="product-details.html">ARC 300S</a>
-                                    </li>
-                                  </ul>
+                                  <a href="products.html">Mosfet</a>
                                 </li>
 
                                 <li class="has-sub">
-                                  <a href="/">Zx7</a>
-                                  <ul class="sub-menu">
-                                    <li>
-                                      <a href="product-details.html">Zx7 200</a>
-                                      <img
-                                        src="images/products/product-1.png"
-                                        alt=""
-                                      />
-                                    </li>
-                                    <li>
-                                      <a href="product-details.html">Zx7 250</a>
-                                      <img
-                                        src="images/products/product-1.png"
-                                        alt=""
-                                      />
-                                    </li>
-                                    <li>
-                                      <a href="product-details.html">Zx7 300</a>
-                                    </li>
-                                  </ul>
+                                  <a href="products.html">Zx7</a>
                                 </li>
 
                                 <li class="has-sub">
-                                  <a href="/">Tubler</a>
-                                  <ul class="sub-menu">
-                                    <li>
-                                      <a href="product-details.html"
-                                        >ARC 200 IGBT</a
-                                      >
-                                    </li>
-                                    <li>
-                                      <a href="product-details.html">ARC 222</a>
-                                    </li>
-                                  </ul>
+                                  <a href="products.html">Tubler</a>
                                 </li>
                               </ul>
                             </li>
@@ -140,34 +95,11 @@
                               <a href="/">TIG</a>
                               <ul class="catogory-menu">
                                 <li class="has-sub">
-                                  <a href="/">Mosfet</a>
-                                  <ul class="sub-menu">
-                                    <li>
-                                      <a href="product-details.html">TIG 200A</a>
-                                      <img
-                                        src="images/products/product-3.png"
-                                        alt=""
-                                      />
-                                    </li>
-                                     <li>
-                                      <a href="product-details.html">TIG 300A</a>
-                                    </li>
-                                    <li>
-                                      <a href="product-details.html">TIG 400A</a>
-                                    </li>
-                                  </ul>
+                                  <a href="products.html">Mosfet</a>
                                 </li>
 
                                 <li class="has-sub">
-                                  <a href="/">Modular</a>
-                                  <ul class="sub-menu">
-                                    <li>
-                                      <a href="product-details.html">TIG 400IJ</a>
-                                    </li>
-                                     <li>
-                                      <a href="product-details.html">TIG 630IJ</a>
-                                    </li>
-                                  </ul>
+                                  <a href="products.html">Modular</a>
                                 </li>
                               </ul>
                             </li>
@@ -269,9 +201,44 @@
     <main>
       <!-- slider-area -->
       <section
-        class="section-gapping banner-img"
-        style="background-image: url('images/weldin12.jpg')"
+        class="section-gapping banner-img position-relative overflow-hidden"
       >
+        <div
+          id="backgroundCarousel"
+          class="carousel slide carousel-fade position-absolute top-0 start-0 w-100 h-100"
+          data-bs-ride="carousel"
+          data-bs-touch="true"
+          style="z-index: 0"
+          data-bs-interval="5000"
+        >
+          <div class="carousel-inner w-100 h-100">
+            <div class="carousel-item active w-100 h-100">
+              <img
+                src="./images/bannerslider.webp"
+                class="d-block w-100 h-100"
+                style="object-fit: fill;"
+                alt="Background Slide 1"
+              />
+            </div>
+            <div class="carousel-item w-100 h-100">
+              <img
+                src="./images/welding15.jpg"
+                class="d-block w-100 h-100"
+                style="object-fit: fill;"
+                alt="Background Slide 2"
+              />
+            </div>
+            <div class="carousel-item w-100 h-100">
+              <img
+                src="./images/welding-extra.webp"
+                class="d-block w-100 h-100"
+                style="object-fit: fill;"
+                alt="Background Slide 3"
+              />
+            </div>
+          </div>
+        </div>
+
         <div
           style="
             position: absolute;
@@ -325,27 +292,28 @@
                 class="carousel slide carousel-fade"
                 data-bs-ride="carousel"
                 data-bs-touch="true"
+                data-bs-interval="5000"
               >
                 <div class="carousel-inner" style="border-radius: 10px">
-                  <div class="carousel-item active">
+                  <div class="carousel-item active carousel-image">
                     <img
-                      src="./images/bannerslider.webp"
+                      src="./images/products/product-1.png"
                       class="d-block w-100"
-                      alt="Slide 1"
+                      alt="Product Slide 1"
                     />
                   </div>
-                  <div class="carousel-item">
+                  <div class="carousel-item carousel-image">
                     <img
-                      src="./images/welding15.jpg"
+                      src="./images/products/product-2.png"
                       class="d-block w-100"
-                      alt="Slide 2"
+                      alt="Product Slide 2"
                     />
                   </div>
-                  <div class="carousel-item">
+                  <div class="carousel-item carousel-image">
                     <img
-                      src="./images/welding-extra.webp"
+                      src="./images/products/product-3.png"
                       class="d-block w-100"
-                      alt="Slide 3"
+                      alt="Product Slide 3"
                     />
                   </div>
                 </div>
@@ -814,7 +782,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-xl-2 col-lg-2 col-sm-6">
+            <div class="col-xl-3 col-lg-3 col-sm-6">
               <div class="footer-widget mb-30">
                 <div class="f-widget-title">
                   <h2 class="wow fadeInDown animated">Essential</h2>
@@ -822,42 +790,20 @@
                 <div class="footer-link">
                   <ul class="wow fadeInDown animated">
                     <li><a href="index.html">About us</a></li>
-                    <li><a href="about.html"> Careers</a></li>
-                    <li><a href="services.html"> Prices </a></li>
-                    <li><a href="contact.html"> Services</a></li>
                     <li><a href="blog.html">Get In Touch </a></li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div class="col-xl-2 col-lg-2 col-sm-6">
+            <div class="col-xl-3 col-lg-3 col-sm-6">
               <div class="footer-widget mb-30">
                 <div class="f-widget-title">
                   <h2 class="wow fadeInDown animated">More Pages</h2>
                 </div>
                 <div class="footer-link">
                   <ul class="wow fadeInDown animated">
-                    <li><a href="index.html">Auto production</a></li>
-                    <li><a href="about.html"> Investors</a></li>
-                    <li><a href="services.html"> News </a></li>
-                    <li><a href="contact.html"> FAQ’s</a></li>
+                    <li><a href="products.html">Products</a></li>
                     <li><a href="blog.html">Contact us </a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-2 col-lg-2 col-sm-6">
-              <div class="footer-widget mb-30">
-                <div class="f-widget-title">
-                  <h2 class="wow fadeInDown animated">Our Services</h2>
-                </div>
-                <div class="footer-link">
-                  <ul class="wow fadeInDown animated">
-                    <li><a href="index.html">Excellence Solutions</a></li>
-                    <li><a href="about.html"> Industrial Services</a></li>
-                    <li><a href="services.html"> TitanTech Solutions </a></li>
-                    <li><a href="contact.html"> Innovations Group</a></li>
-                    <li><a href="blog.html">PowerEdge Services </a></li>
                   </ul>
                 </div>
               </div>

@@ -164,3 +164,19 @@ ul.search-results li:not(:last-of-type) {
   left: -15%;
 }
 
+.arrow {
+  margin-left: 10px;
+  transition: transform 0.3s ease;
+  transform: rotate(0deg);
+}
+
+.has-sub:hover > a .arrow {
+  transform: rotate(180deg);
+}
+
+
+.carousel-image img{
+  height:400px;
+  object-fit: contain;
+  width: 100%;  
+}

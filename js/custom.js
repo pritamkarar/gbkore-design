@@ -55,3 +55,17 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 });
 
+
+  const backgroundCarousel = document.getElementById('backgroundCarousel');
+  const productCarousel = document.getElementById('productCarousel');
+
+  const backgroundCarouselInstance = bootstrap.Carousel.getOrCreateInstance(backgroundCarousel);
+  const productCarouselInstance = bootstrap.Carousel.getOrCreateInstance(productCarousel);
+
+  backgroundCarousel.addEventListener('slide.bs.carousel', function (e) {
+    productCarouselInstance.to(e.to);
+  });
+
+  productCarousel.addEventListener('slide.bs.carousel', function (e) {
+    backgroundCarouselInstance.to(e.to);
+  });
