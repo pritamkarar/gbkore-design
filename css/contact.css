@@ -1,0 +1,222 @@
+.contact-container {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+  background: #fcfdfd;
+}
+
+.left-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.left-col-heading {
+  font-family: "Jost", sans-serif;
+  color: #3f444c;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+  padding-bottom: 1rem;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+.contact-details-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.contact-icon {
+  color: #fe5716;
+  font-size: 20px;
+}
+
+.contact-text {
+  font-family: "Jost", sans-serif;
+  color: #3f444c;
+  font-size: 1rem;
+  font-weight: 300;
+  padding-bottom: 0;
+}
+
+.right-col {
+  background: #fcfdfd;
+  padding: 0rem 3.5rem;
+}
+
+.contact-form-heading,
+.contact-form-label,
+.contact-form-button,
+.contact-description {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+}
+
+.contact-form-heading {
+  color: #3f444c;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  letter-spacing: 0.5rem;
+  font-weight: 300;
+}
+
+.contact-description {
+  color: #818386;
+  font-size: 0.9rem;
+  letter-spacing: 0.01rem;
+  width: 100%;
+  margin: 0.25rem 0;
+}
+
+.contact-form-label {
+  color: #818386;
+  text-transform: uppercase;
+  font-size: 0.625rem;
+  width: 100%;
+  display: block;
+}
+
+.contact-form-wrapper {
+  position: relative;
+  padding: 1rem 0;
+}
+
+.contact-input,
+.contact-textarea {
+  width: 100%;
+  display: block;
+  font-family: "Helvetica Neue", sans-serif;
+  color: #010712;
+  font-weight: 500;
+  background: #fcfdfd;
+  border: none;
+  border-bottom: 1px solid #818386;
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+  outline: none;
+}
+
+.contact-input::placeholder,
+.contact-textarea::placeholder {
+  color: #010712;
+}
+
+.contact-textarea {
+  resize: none;
+}
+
+.contact-form-button {
+  text-transform: uppercase;
+  font-weight: 300;
+  background: #3b3636;
+  color: #fcfdfd;
+  width: 10rem;
+  height: 2.25rem;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+}
+
+.contact-input:hover,
+.contact-textarea:hover,
+.contact-form-button:hover {
+  opacity: 0.5;
+}
+
+.contact-form-button:active {
+  opacity: 0.8;
+}
+
+/* From Uiverse.io by Satwinder04 */
+.input-container {
+  position: relative;
+  margin: 20px auto 40px;
+}
+
+.input-container input[type="text"],
+.input-container textarea {
+  font-size: 16px;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  padding: 5px 0;
+  background-color: transparent;
+  outline: none;
+  resize: none;
+  font-family: "Jost", sans-serif;
+}
+
+.input-container .label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #ccc;
+  transition: all 0.3s ease;
+  pointer-events: none;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+/* Apply focus/valid label animation for both input and textarea */
+.input-container input[type="text"]:focus ~ .label,
+.input-container input[type="text"]:valid ~ .label,
+.input-container textarea:focus ~ .label,
+.input-container textarea:valid ~ .label {
+  top: -20px;
+  font-size: 13px;
+  color: #333;
+}
+
+.input-container .underline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #333;
+  transform: scaleX(0);
+  transition: all 0.3s ease;
+}
+.input-container .underline-textarea {
+  position: absolute;
+  bottom: 7px;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #333;
+  transform: scaleX(0);
+  transition: all 0.3s ease;
+}
+
+.input-container input[type="text"]:focus ~ .underline,
+.input-container input[type="text"]:valid ~ .underline,
+.input-container textarea:focus ~ .underline,
+.input-container textarea:valid ~ .underline,
+.input-container textarea:focus ~ .underline-textarea,
+.input-container textarea:valid ~ .underline-textarea {
+  transform: scaleX(1);
+}
+
+
+@media (max-width: 991.98px) {
+  .right-col {
+    padding: 2rem 0.5rem;
+  }
+
+  .contact-form-heading {
+    letter-spacing: 0rem;
+  }
+}

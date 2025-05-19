@@ -1,3 +1,26 @@
+@font-face {
+  font-family: "EdwardianScriptITC";
+  src: url(../fonts/EdwardianScriptITC.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DM Sans";
+  src: url(../fonts/DMSans-Italic.ttf);
+  font-weight: 500;
+  font-style: Italic;
+}
+
+.dm-sans {
+  font-family: "DM Sans", sans-serif;
+  margin-right: -10px;
+}
+
+.edwardian {
+  font-family: "EdwardianScriptITC", cursive;
+}
+
 .header-three {
   margin-bottom: 0;
 }
@@ -77,8 +100,8 @@ ul.search-results li:not(:last-of-type) {
 .search-results::-webkit-scrollbar-thumb {
   background: #017f3f;
 }
-.catogory-menu{
-   padding:5px 10px 0px 10px;
+.catogory-menu {
+  padding: 5px 10px 0px 10px;
   position: absolute;
   background: #fff;
   min-width: 250px;
@@ -92,7 +115,7 @@ ul.search-results li:not(:last-of-type) {
   top: 0px;
 }
 .sub-menu {
-  padding:5px 10px 0px 10px;
+  padding: 5px 10px 0px 10px;
   position: absolute;
   background: #fff;
   min-width: 250px;
@@ -114,7 +137,7 @@ ul.search-results li:not(:last-of-type) {
 .catogory-menu:hover > .sub-menu {
   visibility: visible;
   opacity: 1;
- margin-left: -15px;
+  margin-left: -15px;
 }
 .main-menu .has-sub li .sub-menu li {
   border-bottom: 1px solid #ddd;
@@ -124,7 +147,7 @@ ul.search-results li:not(:last-of-type) {
   padding-bottom: 0px;
 }
 
-.main-menu .has-sub li .sub-menu li img{
+.main-menu .has-sub li .sub-menu li img {
   height: 50px;
   width: 50px;
   object-fit: contain;
@@ -137,8 +160,8 @@ ul.search-results li:not(:last-of-type) {
   background: transparent;
 }
 
-
-.services-active button.slick-nav, .products-active button.slick-nav {
+.services-active button.slick-nav,
+.products-active button.slick-nav {
   position: absolute;
   top: 45%;
   color: #222222;
@@ -151,16 +174,19 @@ ul.search-results li:not(:last-of-type) {
   background: none;
 }
 
-.services-active button.slick-nav.slick-disabled, .products-active button.slick-nav.slick-disabled {  
-  color:#c1bdbd;
+.services-active button.slick-nav.slick-disabled,
+.products-active button.slick-nav.slick-disabled {
+  color: #c1bdbd;
 }
 
-.services-active button.slick-next, .products-active button.slick-next {
+.services-active button.slick-next,
+.products-active button.slick-next {
   left: auto;
   right: -15%;
 }
 
-.services-active button.slick-prev, .products-active button.slick-prev {
+.services-active button.slick-prev,
+.products-active button.slick-prev {
   left: -15%;
 }
 
@@ -174,9 +200,8 @@ ul.search-results li:not(:last-of-type) {
   transform: rotate(180deg);
 }
 
-
-.carousel-image img{
-  height:400px;
+.carousel-image img {
+  height: 400px;
   object-fit: contain;
-  width: 100%;  
+  width: 100%;
 }
