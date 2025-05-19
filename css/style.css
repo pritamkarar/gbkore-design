@@ -12158,6 +12158,16 @@ blockquote cite {
 .top {
   margin-top: 40px;
 }
+    .products-header img{
+        object-position: 0px -500px;
+    }
+    .header-three{
+        padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    }
+
+
+
 
 @media (max-width: 991.98px) {
   .section-gapping {
@@ -12172,4 +12182,13 @@ blockquote cite {
   .service-box-slider .img {
     margin-right: 0px;
   }
+      .products-header img{
+        object-position: 0px 0px;
+    }
+    .container-fluid{
+      padding: 0;
+    }
+    .header-three{
+      padding: 0;
+    }
 }
