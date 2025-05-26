@@ -1,13 +1,13 @@
 @font-face {
   font-family: "EdwardianScriptITC";
-  src: url(../fonts/EdwardianScriptITC.ttf);
+  src: url(../fonts/edwardianscriptitc.ttf);
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "DM Sans";
-  src: url(../fonts/DMSans-Italic.ttf);
+  src: url(../fonts/dmsansItalic.ttf);
   font-weight: 500;
   font-style: Italic;
 }
@@ -18,7 +18,7 @@
 }
 
 .edwardian {
-  font-family: "EdwardianScriptITC", cursive;
+  font-family: "EdwardianScriptITC", sans-serif;
 }
 
 .header-three {
@@ -203,5 +203,14 @@ ul.search-results li:not(:last-of-type) {
 .carousel-image img {
   height: 400px;
   object-fit: contain;
+  width: 100%;
+}
+
+.gradient {
+  background: #0A0A0A;
+background: linear-gradient(90deg,rgb(24, 24, 24) 0%, rgba(18, 18, 18, 0.96) 25%, rgba(34, 34, 34, 0) 100%);
+  position: absolute;
+  top: 0;
+  height: 100%;
   width: 100%;
 }

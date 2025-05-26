@@ -1282,6 +1282,7 @@ label {
   line-height: 1;
   letter-spacing: 1px;
   color: #fff;
+  /* text-shadow:0px 0px 60px rgba(255,255,255,0.73); */
 }
 .breadcrumb-title p {
   margin-bottom: 0;
@@ -7355,7 +7356,7 @@ figure.aligncenter {
 .bsingle__content figure {
   margin: 0 0 1rem;
 }
-a,
+
 h1,
 h2,
 h3,
@@ -12167,6 +12168,91 @@ blockquote cite {
     }
 
 
+.animated-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  outline: 1px solid #a1a1a1;
+  padding: 12px 45px;
+  border: none;
+  border-color: transparent;
+  font-size: 16px;
+  background-color: white;
+  border-radius: 12px;
+  font-weight: 600;
+  color: black;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button svg {
+  position: absolute;
+  width: 24px;
+  fill: #fe5716;
+  z-index: 9;
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button .arr-1 {
+  right: 16px;
+}
+
+.animated-button .arr-2 {
+  left: -25%;
+}
+
+.animated-button .circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  background-color: #fe5716;
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button .text {
+  position: relative;
+  z-index: 1;
+  transform: translateX(-12px);
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button:hover {
+  color: white;
+  border-radius: 12px;
+}
+
+.animated-button:hover .arr-1 {
+  right: -25%;
+}
+
+.animated-button:hover .arr-2 {
+  left: 16px;
+}
+
+.animated-button:hover .text {
+  transform: translateX(12px);
+}
+
+.animated-button:hover svg {
+  fill: white;
+}
+
+.animated-button:active {
+  scale: 0.95;
+}
+
+.animated-button:hover .circle {
+  width: 220px;
+  height: 220px;
+  opacity: 1;
+}
 
 
 @media (max-width: 991.98px) {
