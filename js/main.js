@@ -173,6 +173,23 @@
     },
   });
 
+  $(document).ready(function () {
+    $(".new-arrivals-strip").slick({
+      speed: 2000,
+       autoplay: true,
+      autoplaySpeed: 0,
+      cssEase: 'linear',
+      slidesToShow: 1,
+      variableWidth: true,
+      infinite: true,
+      arrows: false,
+      pauseOnHover: false,
+      draggable: false,
+      swipe: false,
+      touchMove: false,
+    });
+  });
+
   // services-active
   $(".services-active").slick({
     dots: true,
@@ -207,7 +224,7 @@
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-		  arrows: false
+          arrows: false,
         },
       },
     ],
@@ -625,8 +642,8 @@
           slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
-		  autoplay: true,
-		  autoplaySpeed: 1000,
+          autoplay: true,
+          autoplaySpeed: 1000,
         },
       },
       {
