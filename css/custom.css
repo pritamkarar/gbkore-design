@@ -19,6 +19,7 @@
 
 .edwardian {
   font-family: "EdwardianScriptITC", sans-serif;
+  font-weight: 100;
 }
 
 .header-three {
@@ -213,4 +214,39 @@ background: linear-gradient(90deg,rgb(24, 24, 24) 0%, rgba(18, 18, 18, 0.96) 25%
   top: 0;
   height: 100%;
   width: 100%;
+}
+
+.header-content h1{
+  text-shadow:0px 0px 60px rgba(255,255,255,0.73);
+}
+
+.new-arrivals-strip {
+  background-color:#dcb700;
+  padding: 10px 0;
+  color: black;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.new-arrivals-strip .item {
+  text-align: center;
+  white-space: nowrap;
+  padding: 0 30px;
+}
+
+.credentials-content h2{
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 40px;
+  color: #fe5716;
+}
+
+.credentials-content p {
+  font-size: 16px;
+  color: #777;
+  margin-top: 20px;
+}
+
+.credentials-image{
+  display: flex;
 }

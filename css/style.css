@@ -1282,7 +1282,7 @@ label {
   line-height: 1;
   letter-spacing: 1px;
   color: #fff;
-  /* text-shadow:0px 0px 60px rgba(255,255,255,0.73); */
+  text-shadow:0px 0px 60px rgba(255,255,255,0.73);
 }
 .breadcrumb-title p {
   margin-bottom: 0;
@@ -12190,7 +12190,7 @@ blockquote cite {
 .animated-button svg {
   position: absolute;
   width: 24px;
-  fill: #fe5716;
+  fill: #039447;
   z-index: 9;
   transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
 }
@@ -12210,7 +12210,7 @@ blockquote cite {
   transform: translate(-50%, -50%);
   width: 20px;
   height: 20px;
-  background-color: #fe5716;
+  background-color: #039447;
   border-radius: 50%;
   opacity: 0;
   transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
