@@ -37,6 +37,15 @@
     }
   });
 
+    $(window).on("scroll", function () {
+    var scroll = $(window).scrollTop();
+    if (scroll < 200) {
+      $("#arrivals-strip-sticky").removeClass("sticky-arrivals-strip");
+    } else {
+      $("#arrivals-strip-sticky").addClass("sticky-arrivals-strip");
+    }
+  });
+
   // RESPONSIVE MENU
   $(".responsive").on("click", function (e) {
     $("#mobile-menu").slideToggle();
