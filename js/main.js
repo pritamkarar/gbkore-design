@@ -653,6 +653,7 @@
           infinite: true,
           autoplay: true,
           autoplaySpeed: 1000,
+          arrows: false,
         },
       },
       {
@@ -669,6 +670,7 @@
           slidesToShow: 2,
           slidesToScroll: 2,
         },
+        arrows: false,
       },
       {
         breakpoint: 767,

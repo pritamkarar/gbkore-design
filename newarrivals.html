@@ -7,7 +7,6 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" type="image/x-icon" href="images/gb.png" />
-    <!-- Place favicon.ico in the root directory -->
 
     <!-- CSS here -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -31,7 +30,7 @@
       <div id="loading"></div>
     </div>
 
-   <a href="newarrivals.html">
+    <a href="newarrivals.html">
       <div id="arrivals-strip-sticky" class="new-arrivals-strip">
         <div class="item">New Arrivals</div>
         <div class="item">New Arrivals</div>
@@ -47,7 +46,8 @@
         <div class="item">New Arrivals</div>
       </div>
     </a>
-
+    <!--  Preloader end  -->
+    <!-- header -->
     <header class="header-area header-three py-lg-3">
       <div id="header-sticky" class="menu-area">
         <div class="container">
@@ -214,26 +214,20 @@
     </div>
     <div class="offcanvas-overly"></div>
     <!-- offcanvas-end -->
-
-    <!-- main -->
-
-    <main>
-
-        <!-- breadcrumb-area -->
+    <!-- main-area -->
+    <main style="overflow: hidden">
+      <!-- breadcrumb-area -->
        <section class="banner-products">
         <div class="container-fluid">
           <div class="row">
             <div class="col-12 p-0">
               <div class="products-header">
                 <div class="gradient"></div>
-                <img
-                  src="./images/bannerclient.jpg"
-                  alt="logo"
-                />  
+                <img src="./images/bannerclient.jpg" alt="logo"/>   
                 <div class="header-content">
                  <div class="breadcrumb-wrap text-left">
                 <div class="breadcrumb-title">
-                  <h2>Credentials</h2>
+                  <h2>New Arrivals</h2>
                 </div>
               </div>
               </div>
@@ -243,102 +237,221 @@
         </div>
       </section>
       <!-- breadcrumb-area-end -->
-      <section class="credentials-section pt-80 pb-5">
-        <div class="container mx-auto px-4">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="credentials-content">
-                <h2 class="mb-2">Distributorship</h2>
-                <p>
-                  GB KORE ARC PVT LTD, a proud associate of KORE group of
-                  companies is leading manufacturer and importer of Welding
-                  Electrocodes. We are committed to providing high-quality
-                  products and services to our customers.
-                </p>
-                <p>
-                  Our credentials include certifications from various
-                  international standards organizations, ensuring that our
-                  products meet the highest quality and safety standards. We
-                  take pride in our commitment to excellence and customer
-                  satisfaction.
-                </p>
-                <p>
-                  For more information about our credentials, please contact us
-                  or visit our website.
-                </p>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="credentials-image flex-column flex-lg-row">
-                <div class="col-md-6 p-1">
-                  <img
-                    src="./images/certificate2.webp"
-                    alt="Certificate 2"
-                    class="credential-img"
-                    style="height: 200px; object-fit: contain"
-                  />
-                  <img
-                    src="./images/award-1.webp"
-                    alt="Certificate 3"
-                    class="credential-img"
-                    style="height: 200px; object-fit: contain"
-                  />
-                </div>
-                <div class="col-md-6 m-auto">
-                  <img
-                    src="./images/certificate1.webp"
-                    alt="Award 2"
-                    class="credential-img"
-                    style="object-fit: cover"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      <section class="py-5">
+      <!-- shop-area -->
+      <section
+        class="shop-area pt-50 pb-80 p-relative"
+        data-animation="fadeInUp animated"
+        data-delay=".2s"
+      >
         <div class="container">
           <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-3">
+              <div class="category-list">
+                <div class="list-heading">
+                  <h3>Filters <i class="fal fa-filter"></i></h3>
+                </div>
+
+                <div class="list-content">
+                  <div class="list-title">
+                    <h4>Categories</h4>
+                  </div>
+                  <div class="d-flex flex-wrap d-lg-block">
+                 <div class="checkbox-container">
+                    <input type="checkbox" id="checkbox1" />
+                    <label for="checkbox1">ARC</label>
+                  </div>
+
+                  <div class="checkbox-container">
+                    <input type="checkbox" id="checkbox2" />
+                    <label for="checkbox2">TIG</label>
+                  </div>
+
+                  <div class="checkbox-container">
+                    <input type="checkbox" id="checkbox3" />
+                    <label for="checkbox3">MIG</label>
+                  </div>
+
+                  <div class="checkbox-container">
+                    <input type="checkbox" id="checkbox4" />
+                    <label for="checkbox4">CUT</label>
+                  </div>
+                  </div>
+                </div>
+
+                <div class="list-content">
+                  <div class="list-title">
+                    <h4>Power</h4>
+                  </div>
+                <div class="d-flex flex-wrap d-lg-block">
+                  <div class="checkbox-container">
+                    <input type="checkbox" id="checkbox5" />
+                    <label for="checkbox5">250</label>
+                  </div>
+
+                  <div class="checkbox-container">
+                    <input type="checkbox" id="checkbox6" />
+                    <label for="checkbox6">300</label>
+                  </div>
+
+                  <div class="checkbox-container">
+                    <input type="checkbox" id="checkbox7" />
+                    <label for="checkbox7">400</label>
+                  </div>
+
+                  <div class="checkbox-container">
+                    <input type="checkbox" id="checkbox8" />
+                    <label for="checkbox8">600</label>
+                  </div>
+
+                  <div class="checkbox-container">
+                    <input type="checkbox" id="checkbox9" />
+                    <label for="checkbox9">800</label>
+                  </div>
+
+                  <div class="checkbox-container">
+                    <input type="checkbox" id="checkbox10" />
+                    <label for="checkbox10">950</label>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-9">
+              <div class="row align-items-center">
+                <div class="col-lg-6 col-sm-6">
+                  <h6 class="mt-20">Product Lists</h6>
+                </div>
+                <div class="col-lg-6 col-sm-6 text-right">
+                  <div class="login text-right d-none d-lg-block">
+                    <ul>
+                      <!-- <li><a href="#" class="menu-tigger"><img src="img/icon/search.png" alt="logo"></a></li> -->
+                      <li class="position-relative searchform">
+                        <input
+                          type="text"
+                          name="s"
+                          id="search"
+                          placeholder="Search Products"
+                        />
+                        <button class="search-btn">
+                          <i class="fal fa-search text-white"></i>
+                        </button>
+                        <ul class="search-results"></ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
               <div class="row">
-                <div class="d-flex flex-column-reverse flex-lg-row">
-                <div class="col-md-6">
-                  <div class="row">
-                    <div class="col-md-6">
-                      <img
-                        src="./images/award-3.jpg"
-                        alt="Certificate 1"
-                        class="credential-img"
-                        style="object-fit: cover"
-                      />
+                <div class="col-lg-4 col-md-6">
+                  <div class="product mb-40">
+                    <div class="listing-product-img">
+                      <img src="./images/gb.png" alt="" class="listing-img1" />
+                      <span class="pro-cat text-center"
+                        ><a href="#">ARC</a></span
+                      >
+                      <a href="product-details.html"
+                        ><img class="listing-img2" src="images/products/product-1.png" alt=""
+                      /></a>
+                      <div class="product-action text-center"></div>
                     </div>
-                    <div class="col-md-6">
-                      <img
-                        src="./images/award-2.jpg"
-                        alt="Certificate 4"
-                        class="credential-img"
-                        style="object-fit: cover"
-                      />
+                    <div class="product__content text-center pt-15">
+                      <h4 class="pro-title">
+                        <a href="product-details.html">ARC 250</a>
+                      </h4>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-6">
-                  <div class="credentials-content">
-                    <h2 class="mb-4 text-center text-lg-end" style="font-size: 50px;">Awards</h2>
+
+                <div class="col-lg-4 col-md-6">
+                  <div class="product mb-40">
+                    <div class="listing-product-img">
+                      <img src="./images/rilon.png" alt="" class="listing-img1" />
+                      <span class="pro-cat text-center">
+                        <a href="#">ARC</a>
+                      </span>
+                      <a href="product-details.html"
+                        ><img class="listing-img2" src="images/products/product-2.png" alt=""
+                      /></a>
+                      <div class="product-action text-center"></div>
+                    </div>
+                    <div class="product__content text-center pt-15">
+                      <h4 class="pro-title">
+                        <a href="product-details.html">ARC 400</a>
+                      </h4>
+                    </div>
                   </div>
-                  <div class="d-none d-lg-block right-down">
-                     <img src="./images/right-down (3).png" alt="#" />
                 </div>
+
+                <div class="col-lg-4 col-md-6">
+                  <div class="product mb-40">
+                    <div class="listing-product-img">
+                      <img src="./images/gb.png" alt="" class="listing-img1" />
+                      <span class="pro-cat text-center"
+                        ><a href="#">TIG</a></span
+                      >
+                      <a href="product-details.html"
+                        ><img class="listing-img2" src="images/products/product-3.png" alt=""
+                      /></a>
+                      <div class="product-action text-center"></div>
+                    </div>
+                    <div class="product__content text-center pt-15">
+                      <h4 class="pro-title">
+                        <a href="product-details.html">ARC 250</a>
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                  <div class="product mb-40">
+                    <div class="listing-product-img">
+                      <img src="./images/gb.png" alt="" class="listing-img1" />
+                      <span class="pro-cat text-center"
+                        ><a href="#">ARC</a></span
+                      >
+                      <a href="product-details.html"
+                        ><img class="listing-img2" src="images/products/product-4.png" alt=""
+                      /></a>
+                      <div class="product-action text-center"></div>
+                    </div>
+                    <div class="product__content text-center pt-15">
+                      <h4 class="pro-title">
+                        <a href="product-details.html">ARC 250</a>
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                  <div class="product mb-40">
+                    <div class="listing-product-img">
+                      <img src="./images/gb.png" alt="" class="listing-img1" />
+                      <span class="pro-cat text-center"
+                        ><a href="#">ARC</a></span
+                      >
+                      <a href="product-details.html"
+                        ><img class="listing-img2" src="images/products/product-5.png" alt=""
+                      /></a>
+                      <div class="product-action text-center"></div>
+                    </div>
+                    <div class="product__content text-center pt-15">
+                      <h4 class="pro-title">
+                        <a href="product-details.html">ARC 250</a>
+                      </h4>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+      <!-- shop-area-end -->
     </main>
 
+    <!-- footer -->
     <footer class="footer-bg footer-p" style="background-color: #222">
       <div class="footer-top pt-60 pb-20">
         <div class="container">
@@ -434,6 +547,7 @@
     <!-- footer-end -->
 
     <!-- JS here -->
+    <script src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.2/sharer.min.js"></script>
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
     <script src="js/vendor/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
