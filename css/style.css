@@ -122,7 +122,8 @@ main{
   /* box-shadow: 3px 4px 15px #0000001a; */
   position: absolute;
   width: 100vw;
-  left: -24px;
+  left: -12px;
+  top: -5px;
   right: 0px;
 }
 .mean-container .mean-nav ul {
@@ -745,7 +746,6 @@ label {
 }
 
 .sticky-menu {
-  height: 87.23px;
   left: 0;
   margin: auto;
   position: fixed !important;
@@ -935,8 +935,8 @@ label {
   position: relative;
   z-index: 9;
   background: #fff;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left:80px;
+  padding-right:80px;
 }
 .second-menu .logo a {
   margin-left: 15px;
@@ -947,7 +947,8 @@ label {
 .sticky-menu .second-menu {
   margin: 0;
   box-shadow: none;
-  padding: 0;
+   padding-left:80px;
+  padding-right:80px;
 }
 .sticky-menu .second-menu::before {
   content: none;
@@ -12292,16 +12293,57 @@ blockquote cite {
 }
 .new-label {
   position: absolute;
-  top: -11%;
+  top: -20%;
   left: 6%;
   z-index: -1;
   width: 23%;
 }
 
 .new-label img {
-  max-height: 150px;
+  max-height: 200px;
   width: auto;
   display: block;
+}
+
+.rilon-category{
+  padding: 50px 0px;
+}
+
+.category-card{
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.category-card img{
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.category-card h5{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  margin: 0;
+  font-size: 30px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+  height: 60px;
+}
+
+.category-card:hover h5{
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (min-width: 767px){

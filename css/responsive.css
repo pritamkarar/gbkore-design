@@ -8,7 +8,7 @@
   }
   .menu-search {
     padding: 10px 10px 10px 0;
-  }
+  }.mean-container .mean-nav
   .right-menu .text strong {
     font-size: 20px;
   }
@@ -1382,7 +1382,7 @@ margin-right: 10px;*/
     display: none;
   }
   .second-menu {
-    padding: 0;
+    padding: 0 !important;
     background: none;
   }
   .newslater-area .container::before {
@@ -1757,7 +1757,7 @@ margin-right: 10px;*/
   }
   .mean-container .mean-nav {
     background: #ffffff 0% 0% no-repeat padding-box;
-    box-shadow: 3px 4px 15px #0000001a;
+    /* box-shadow: 3px 4px 15px #0000001a; */
     position: absolute;
   }
   .mean-container .mean-nav ul li a.mean-expand {
