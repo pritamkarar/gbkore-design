@@ -814,3 +814,15 @@
     });
   }
 })(jQuery);
+
+
+// Rilon Product Gallery
+
+function updateImage(ele){
+      document.querySelector(".image-viewer").querySelector("img").src = ele.src;
+      var images = document.querySelector(".image-thumb").querySelectorAll("img");
+      for(i=0;i<images.length;i++){
+        images[i].classList.remove("active");
+      }
+      ele.classList.add("active");
+    }
