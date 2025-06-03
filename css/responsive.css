@@ -2876,6 +2876,9 @@ margin-right: 10px;*/
 }
 
 @media (max-width: 425px){
+  .image-viewer img{
+    height: 300px !important;
+  }
   .credentials-content h2{
     font-size: 33px;
   }
