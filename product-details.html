@@ -30,28 +30,30 @@
       <div id="loading"></div>
     </div>
 
-    <div id="arrivals-strip-sticky" class="new-arrivals-strip">
-      <div class="item">New Arrivals</div>
-      <div class="item">New Arrivals</div>
-      <div class="item">New Arrivals</div>
-      <div class="item">New Arrivals</div>
-      <div class="item">New Arrivals</div>
-      <div class="item">New Arrivals</div>
-      <div class="item">New Arrivals</div>
-      <div class="item">New Arrivals</div>
-      <div class="item">New Arrivals</div>
-      <div class="item">New Arrivals</div>
-      <div class="item">New Arrivals</div>
-      <div class="item">New Arrivals</div>
-    </div>
+    <a href="newarrivals.html">
+      <div id="arrivals-strip-sticky" class="new-arrivals-strip">
+        <div class="item">New Arrivals</div>
+        <div class="item">New Arrivals</div>
+        <div class="item">New Arrivals</div>
+        <div class="item">New Arrivals</div>
+        <div class="item">New Arrivals</div>
+        <div class="item">New Arrivals</div>
+        <div class="item">New Arrivals</div>
+        <div class="item">New Arrivals</div>
+        <div class="item">New Arrivals</div>
+        <div class="item">New Arrivals</div>
+        <div class="item">New Arrivals</div>
+        <div class="item">New Arrivals</div>
+      </div>
+    </a>
     <!--  Preloader end  -->
     <!-- header -->
     <header class="header-area header-three py-lg-3">
       <div id="header-sticky" class="menu-area">
-        <div class="container">
+        <div class="container-fluid">
           <div class="second-menu">
             <div class="row align-items-center">
-              <div class="col-lg-2 col-md-12 d-lg-none d-x-none">
+              <div class="col-lg-2 col-md-12 d-lg-none d-md-none">
                 <div class="logo">
                   <a href="index.html"
                     ><img src="images/logo.png" alt="logo"
@@ -75,7 +77,13 @@
                         </li>
                         <li><a href="about.html">About Us</a></li>
                         <li class="has-sub">
-                          <a href="products.html">Product</a>
+                          <a href="products.html"
+                            >Product
+                            <i
+                              style="font-size: 14px"
+                              class="fal fa-chevron-down arrow"
+                            ></i>
+                          </a>
                           <ul>
                             <li class="position-relative searchform">
                               <i
@@ -86,53 +94,29 @@
                             </li>
                             <li>
                               <a href="/">ARC</a>
-                              <ul class="sub-menu">
-                                <li>
-                                  <a href="product-details.html">ARC200</a>
+                              <ul class="catogory-menu">
+                                <li class="has-sub">
+                                  <a href="products.html">Mosfet</a>
                                 </li>
-                                <li>
-                                  <a href="product-details.html">ARC222</a>
+
+                                <li class="has-sub">
+                                  <a href="products.html">Zx7</a>
                                 </li>
-                                <li>
-                                  <a href="product-details.html">ARC270ST</a>
-                                </li>
-                                <li>
-                                  <a href="product-details.html">ARC300</a>
-                                </li>
-                                <li>
-                                  <a href="product-details.html">ARC400HD</a>
-                                </li>
-                                <li>
-                                  <a href="product-details.html">MMA-400GI</a>
-                                </li>
-                                <li>
-                                  <a href="product-details.html">MMA-400IJ</a>
+
+                                <li class="has-sub">
+                                  <a href="products.html">Tubler</a>
                                 </li>
                               </ul>
                             </li>
                             <li>
                               <a href="/">TIG</a>
-                              <ul class="sub-menu">
-                                <li>
-                                  <a href="product-details.html">TIG200A</a>
+                              <ul class="catogory-menu">
+                                <li class="has-sub">
+                                  <a href="products.html">Mosfet</a>
                                 </li>
-                                <li>
-                                  <a href="product-details.html">TIG300</a>
-                                </li>
-                                <li>
-                                  <a href="product-details.html">TIG315BP</a>
-                                </li>
-                                <li>
-                                  <a href="product-details.html">TIG200M</a>
-                                </li>
-                                <li>
-                                  <a href="product-details.html">TIG400Mos</a>
-                                </li>
-                                <li>
-                                  <a href="product-details.html">TIG400P</a>
-                                </li>
-                                <li>
-                                  <a href="product-details.html">TIG315AC/DC</a>
+
+                                <li class="has-sub">
+                                  <a href="products.html">Modular</a>
                                 </li>
                               </ul>
                             </li>
@@ -158,6 +142,15 @@
                           placeholder="Search Products"
                         />
                         <ul class="search-results"></ul>
+                      </li>
+                      <li class="my-0">
+                        <a href="riloncategory.html">
+                          <img
+                            src="images/rilon.png"
+                            alt="rilon"
+                            style="height: 80px"
+                          />
+                        </a>
                       </li>
                     </ul>
                   </div>
@@ -239,18 +232,14 @@
             <div class="col-12 p-0">
               <div class="products-header">
                 <div class="gradient"></div>
-                <img
-                  src="./images/bannerclient.jpg"
-                  alt="logo"
-                  style="position: relative; z-index: -2; object-position:bottom -115px right 0px;"
-                />
+                <img src="./images/bannerclient.jpg" alt="logo" />
                 <div class="header-content">
-                   <div class="breadcrumb-wrap text-left">
-                <div class="breadcrumb-title">
-                  <h2 style="font-size: 50px;">ARC 250</h2>
+                  <div class="breadcrumb-wrap text-left">
+                    <div class="breadcrumb-title">
+                      <h2 class="product-detail-h2">ARC 250</h2>
+                    </div>
+                  </div>
                 </div>
-              </div>
-                </div>  
               </div>
             </div>
           </div>
@@ -352,132 +341,136 @@
 
             <div class="col-12">
               <div class="table-container">
-                <table class="table table-bordered">
-                  <div class="table-title">
-                    <h2>TECHNICAL PARAMETERS</h2>
-                  </div>
-                  <thead>
-                    <tr style="background-color: #555555; color: white">
-                      <th>PARAMETER</th>
-                      <th scope="col">TIG - 200P AC / DC</th>
-                      <th scope="col">TIG - 315BP AC / DC</th>
-                      <th scope="col">TIG - 500P AC / DC</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th>Input Power Voltage (v)</th>
-                      <td>1P AC- 230 ± 15 %</td>
-                      <td>3P AC -415± 15 %</td>
-                      <td>3P AC -415± 15 %</td>
-                    </tr>
-                    <tr>
-                      <th>Rated input capacity MMA / TIG (KVA)</th>
-                      <td>9.6 / 6.2</td>
-                      <td>12.9 /8.9</td>
-                      <td>14.5 / 18.9</td>
-                    </tr>
-                    <tr>
-                      <th>RATED INPUT CURRENT (A)</th>
-                      <td>43.6 / 28.2</td>
-                      <td>19.6 / 13.5</td>
-                      <td>22 / 29</td>
-                    </tr>
-                    <tr>
-                      <th>Current Adjust Range (A)</th>
-                      <td>10 - 200</td>
-                      <td>10 - 315</td>
-                      <td>30 - 500</td>
-                    </tr>
-                    <tr>
-                      <th>NO - load Voltage (V)</th>
-                      <td>44</td>
-                      <td>54</td>
-                      <td>70</td>
-                    </tr>
-                    <tr>
-                      <th>DUT Y CYCLE (%)</th>
-                      <td>60%</td>
-                      <td>60%</td>
-                      <td>60%</td>
-                    </tr>
-                    <tr>
-                      <th>Full load Efficiency (%)</th>
-                      <td>80%</td>
-                      <td>85%</td>
-                      <td>85%</td>
-                    </tr>
-                    <tr>
-                      <th>POWER FACTOR</th>
-                      <td>0.73</td>
-                      <td>0.93</td>
-                      <td>93%</td>
-                    </tr>
-                    <tr>
-                      <th>Protection Class</th>
-                      <td>IP21</td>
-                      <td>IP21</td>
-                      <td>IP21</td>
-                    </tr>
-                    <tr>
-                      <th>Welding Thickness (mm)</th>
-                      <td>1mm - 6mm</td>
-                      <td>1mm - 16mm</td>
-                      <td>1mm - 25 mm</td>
-                    </tr>
-                    <tr>
-                      <th>Weight (KG)</th>
-                      <td>22</td>
-                      <td>39</td>
-                      <td>85</td>
-                    </tr>
-                    <tr>
-                      <th>Overall dimension (mm)</th>
-                      <td>432× 204× 302</td>
-                      <td>616× 326× 620</td>
-                      <td>760× 380× 820</td>
-                    </tr>
-                  </tbody>
-                </table>
+                <div class="table-title">
+                  <h2>TECHNICAL PARAMETERS</h2>
+                </div>
+                <div class="table-responsive">
+                  <table class="table table-bordered mb-0">
+                    <thead>
+                      <tr style="background-color: #555555; color: white">
+                        <th>PARAMETER</th>
+                        <th scope="col">TIG - 200P AC / DC</th>
+                        <th scope="col">TIG - 315BP AC / DC</th>
+                        <th scope="col">TIG - 500P AC / DC</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th>Input Power Voltage (v)</th>
+                        <td>1P AC- 230 ± 15 %</td>
+                        <td>3P AC -415± 15 %</td>
+                        <td>3P AC -415± 15 %</td>
+                      </tr>
+                      <tr>
+                        <th>Rated input capacity MMA / TIG (KVA)</th>
+                        <td>9.6 / 6.2</td>
+                        <td>12.9 /8.9</td>
+                        <td>14.5 / 18.9</td>
+                      </tr>
+                      <tr>
+                        <th>RATED INPUT CURRENT (A)</th>
+                        <td>43.6 / 28.2</td>
+                        <td>19.6 / 13.5</td>
+                        <td>22 / 29</td>
+                      </tr>
+                      <tr>
+                        <th>Current Adjust Range (A)</th>
+                        <td>10 - 200</td>
+                        <td>10 - 315</td>
+                        <td>30 - 500</td>
+                      </tr>
+                      <tr>
+                        <th>NO - load Voltage (V)</th>
+                        <td>44</td>
+                        <td>54</td>
+                        <td>70</td>
+                      </tr>
+                      <tr>
+                        <th>DUT Y CYCLE (%)</th>
+                        <td>60%</td>
+                        <td>60%</td>
+                        <td>60%</td>
+                      </tr>
+                      <tr>
+                        <th>Full load Efficiency (%)</th>
+                        <td>80%</td>
+                        <td>85%</td>
+                        <td>85%</td>
+                      </tr>
+                      <tr>
+                        <th>POWER FACTOR</th>
+                        <td>0.73</td>
+                        <td>0.93</td>
+                        <td>93%</td>
+                      </tr>
+                      <tr>
+                        <th>Protection Class</th>
+                        <td>IP21</td>
+                        <td>IP21</td>
+                        <td>IP21</td>
+                      </tr>
+                      <tr>
+                        <th>Welding Thickness (mm)</th>
+                        <td>1mm - 6mm</td>
+                        <td>1mm - 16mm</td>
+                        <td>1mm - 25 mm</td>
+                      </tr>
+                      <tr>
+                        <th>Weight (KG)</th>
+                        <td>22</td>
+                        <td>39</td>
+                        <td>85</td>
+                      </tr>
+                      <tr>
+                        <th>Overall dimension (mm)</th>
+                        <td>432× 204× 302</td>
+                        <td>616× 326× 620</td>
+                        <td>760× 380× 820</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
 
-                <table class="table table-bordered">
-                  <div class="table-title">
-                    <h2>Guidelines for Product Purchase</h2>
-                  </div>
-                  <thead>
-                    <tr style="background-color: #555555; color: white">
-                      <th>Base Material</th>
-                      <th scope="col">Plate Thickness</th>
-                      <th scope="col">Welding Process</th>
-                      <th scope="col">Current Range (A)</th>
-                      <th scope="col">Applicable Modle</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th>Carbon steel ,Stainless steel</th>
-                      <td>1mm - 6mm</td>
-                      <td>DC TIG / MMA</td>
-                      <td>10 - 200</td>
-                      <td>TIG - 200P AC / DC</td>
-                    </tr>
-                    <tr>
-                      <th rowspan="2" style="background-color: #fff">
-                        Low - alloy steel
-                      </th>
-                      <td>1mm - 16mm</td>
-                      <td>DC TIG / MMA</td>
-                      <td>10 - 315</td>
-                      <td>TIG - 315BP AC / DC</td>
-                    </tr>
-                    <tr>
-                      <td>1mm - 25mm</td>
-                      <td>DC TIG / MMA</td>
-                      <td>30 - 500</td>
-                      <td>TIG - 500 P AC / DC</td>
-                    </tr>
-                  </tbody>
-                </table>
+                <div class="table-title">
+                  <h2>Guidelines for Product Purchase</h2>
+                </div>
+                <div class="table-responsive">
+                  <table class="table table-bordered mb-0">
+                    <thead>
+                      <tr style="background-color: #555555; color: white">
+                        <th>Base Material</th>
+                        <th scope="col">Plate Thickness</th>
+                        <th scope="col">Welding Process</th>
+                        <th scope="col">Current Range (A)</th>
+                        <th scope="col">Applicable Model</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th>Carbon steel, Stainless steel</th>
+                        <td>1mm - 6mm</td>
+                        <td>DC TIG / MMA</td>
+                        <td>10 - 200</td>
+                        <td>TIG - 200P AC / DC</td>
+                      </tr>
+                      <tr>
+                        <th rowspan="2" style="background-color: #fff">
+                          Low-alloy steel
+                        </th>
+                        <td>1mm - 16mm</td>
+                        <td>DC TIG / MMA</td>
+                        <td>10 - 315</td>
+                        <td>TIG - 315BP AC / DC</td>
+                      </tr>
+                      <tr>
+                        <td>1mm - 25mm</td>
+                        <td>DC TIG / MMA</td>
+                        <td>30 - 500</td>
+                        <td>TIG - 500P AC / DC</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </div>
           </div>

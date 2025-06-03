@@ -212,11 +212,15 @@
 
 
 @media (max-width: 991.98px) {
+  .left-col-heading {
+  font-size: 2rem;
+}
   .right-col {
     padding: 2rem 0.5rem;
   }
 
   .contact-form-heading {
+    font-size: 2rem;
     letter-spacing: 0rem;
   }
 }

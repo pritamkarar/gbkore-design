@@ -34,17 +34,21 @@ body {
   font-style: normal;
   line-height: 26px;
 }
+main{
+  overflow: hidden;
+}
 /*--- LOADING ---*/
 #loading {
   background-image: url("../images/logo.png");
   background-position: center center;
   background-repeat: no-repeat;
   height: 100%;
-  left: 4%;
-  margin: -100px 0 0 -50px;
+  left: 50%;
   position: absolute;
-  top: 10%;
-  width: 100%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 310px;
+  background-size: contain;
 }
 
 #preloader {
@@ -115,10 +119,11 @@ body {
 }
 .mean-container .mean-nav {
   background: #ffffff 0% 0% no-repeat padding-box;
-  box-shadow: 3px 4px 15px #0000001a;
+  /* box-shadow: 3px 4px 15px #0000001a; */
   position: absolute;
   width: 100vw;
-  left: -25px;
+  left: -12px;
+  top: -5px;
   right: 0px;
 }
 .mean-container .mean-nav ul {
@@ -741,7 +746,6 @@ label {
 }
 
 .sticky-menu {
-  height: 87.23px;
   left: 0;
   margin: auto;
   position: fixed !important;
@@ -931,8 +935,8 @@ label {
   position: relative;
   z-index: 9;
   background: #fff;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left:80px;
+  padding-right:80px;
 }
 .second-menu .logo a {
   margin-left: 15px;
@@ -943,7 +947,8 @@ label {
 .sticky-menu .second-menu {
   margin: 0;
   box-shadow: none;
-  padding: 0;
+   padding-left:80px;
+  padding-right:80px;
 }
 .sticky-menu .second-menu::before {
   content: none;
@@ -1291,14 +1296,18 @@ label {
   content: "";
   font-family: "Font Awesome 5 Pro";
 }
+.product-detail-h2{
+   font-size: 50px !important;
+}
 .breadcrumb-title h2 {
   font-size: 70px;
   margin-bottom: 25px;
   line-height: 1;
   letter-spacing: 1px;
   color: #fff;
-  text-shadow:0px 0px 60px rgba(255,255,255,0.73);
+  text-shadow: 0px 0px 60px rgba(255, 255, 255, 0.73);
 }
+
 .breadcrumb-title p {
   margin-bottom: 0;
   color: #777;
@@ -12133,7 +12142,7 @@ blockquote cite {
   color: #fe5716;
 }
 .company-section {
-  padding: 60px 20px;
+  padding: 0px 20px;
 }
 .images-grid img {
   width: 100%;
@@ -12145,8 +12154,8 @@ blockquote cite {
 .section-gapping {
   padding: 70px 20px;
 }
-.banner-img{
-    position: relative;
+.banner-img {
+  position: relative;
   background-size: cover;
   background-position: center;
 }
@@ -12172,22 +12181,19 @@ blockquote cite {
 }
 
 .right-down img {
-    float: right;
-    height: 100%;
-    margin-right: 180px;
-    object-fit: contain;
+  float: right;
+  height: 100%;
+  margin-right: 180px;
+  object-fit: contain;
 }
 .top {
   margin-top: 40px;
 }
-    .products-header img{
-        object-position: 0px -500px;
-    }
-    .header-three{
-        padding-top: 1rem !important;
-    padding-bottom: 1rem !important;
-    }
-
+.products-header img {
+  object-position: bottom -115px right 0px;
+  position: relative;
+  z-index: -2;
+}
 
 .animated-button {
   position: relative;
@@ -12212,7 +12218,7 @@ blockquote cite {
   position: absolute;
   width: 24px;
   fill: #039447;
-  z-index: 9;
+  z-index:1;
   transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
@@ -12274,28 +12280,74 @@ blockquote cite {
   height: 220px;
   opacity: 1;
 }
+.new-label-text {
+  position: absolute;
+  top: 4px;
+  left: 25px;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 2rem;
+  z-index: 10;
+}
+.new-label {
+  position: absolute;
+  top: -20%;
+  left: 6%;
+  z-index: -1;
+  width: 23%;
+}
 
+.new-label img {
+  max-height: 200px;
+  width: auto;
+  display: block;
+}
 
-@media (max-width: 991.98px) {
-  .section-gapping {
-    padding: 50px 0px;
+.rilon-category{
+  padding: 50px 0px;
+}
+
+.category-card{
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.category-card img{
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.category-card h5{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  margin: 0;
+  font-size: 30px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+  height: 60px;
+}
+
+.category-card:hover h5{
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 767px){
+  .mean-container .mean-nav{
+    left: -36px !important;
   }
-  .section-title {
-    font-size: 2rem;
-  }
-  .top {
-    margin-top: 0;
-  }
-  .service-box-slider .img {
-    margin-right: 0px;
-  }
-      .products-header img{
-        object-position: 0px 0px;
-    }
-    .container-fluid{
-      padding: 0;
-    }
-    .header-three{
-      padding: 0;
-    }
 }
