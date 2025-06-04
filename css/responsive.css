@@ -2876,6 +2876,22 @@ margin-right: 10px;*/
 }
 
 @media (max-width: 425px){
+  .mean-container .mean-nav ul li li a{
+    padding: 10px 3%;
+  }
+  .company-category img{
+    height: 45px; 
+  }
+  .company-category{
+    padding: 0 10px !important;
+  }
+  .gallery a img{
+    height: auto;
+    width: 100%;
+  }
+  .second-menu .logo a{
+    margin-left: 0px !important;
+  }
   .image-viewer img{
     height: 300px !important;
   }

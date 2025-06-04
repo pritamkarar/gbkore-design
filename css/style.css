@@ -34,7 +34,7 @@ body {
   font-style: normal;
   line-height: 26px;
 }
-main{
+main {
   overflow: hidden;
 }
 /*--- LOADING ---*/
@@ -935,8 +935,8 @@ label {
   position: relative;
   z-index: 9;
   background: #fff;
-  padding-left:80px;
-  padding-right:80px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 .second-menu .logo a {
   margin-left: 15px;
@@ -947,8 +947,8 @@ label {
 .sticky-menu .second-menu {
   margin: 0;
   box-shadow: none;
-   padding-left:80px;
-  padding-right:80px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 .sticky-menu .second-menu::before {
   content: none;
@@ -1296,8 +1296,8 @@ label {
   content: "";
   font-family: "Font Awesome 5 Pro";
 }
-.product-detail-h2{
-   font-size: 50px !important;
+.product-detail-h2 {
+  font-size: 50px !important;
 }
 .breadcrumb-title h2 {
   font-size: 70px;
@@ -6820,6 +6820,8 @@ section:hover .section-title h2::before {
 }
 .main-menu .has-sub li a {
   padding: 15px;
+  font-size: 18px;
+  width: 100%;
 }
 .main-menu .has-sub li {
   margin-left: 0 !important;
@@ -12218,7 +12220,7 @@ blockquote cite {
   position: absolute;
   width: 24px;
   fill: #039447;
-  z-index:1;
+  z-index: 1;
   transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
@@ -12305,23 +12307,23 @@ blockquote cite {
   display: block;
 }
 
-.rilon-category{
+.rilon-category {
   padding: 50px 0px;
 }
 
-.category-card{
+.category-card {
   position: relative;
   overflow: hidden;
   border-radius: 5px;
 }
 
-.category-card img{
+.category-card img {
   height: 300px;
   width: 100%;
   object-fit: cover;
 }
 
-.category-card h5{
+.category-card h5 {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -12338,7 +12340,7 @@ blockquote cite {
   height: 60px;
 }
 
-.category-card:hover h5{
+.category-card:hover h5 {
   background-color: rgba(0, 0, 0, 0.7);
   height: 100%;
   display: flex;
@@ -12346,8 +12348,50 @@ blockquote cite {
   justify-content: center;
 }
 
-@media (min-width: 767px){
-  .mean-container .mean-nav{
+.company-category {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+.company-category img {
+  height: 55px;
+}
+
+.gallery-heading h2{
+  color: #fe5716;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.gallery {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.gallery a img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius:5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.lg-backdrop,
+  .lg-outer {
+    z-index: 99999 !important;
+  }
+
+  .about-us img{
+    height:400px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+@media (min-width: 767px) {
+  .mean-container .mean-nav {
     left: -36px !important;
   }
 }
