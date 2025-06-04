@@ -51,6 +51,19 @@ main {
   background-size: contain;
 }
 
+#rilon-loading {
+  background-image: url("../images/rilon.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 310px;
+  background-size: contain;
+}
+
 #preloader {
   background: #fff none repeat scroll 0 0;
   bottom: 0;
@@ -6838,7 +6851,7 @@ section:hover .section-title h2::before {
 .main-menu .has-sub:hover > ul {
   visibility: visible;
   margin-top: 0px;
-  margin-left: -10px;
+  margin-left: -11px;
   opacity: 1;
 }
 .main-menu .has-sub > ul > .has-sub > ul {
@@ -6873,9 +6886,7 @@ section:hover .section-title h2::before {
 .main-menu .has-sub ul li a {
   color: #4f4f4f;
 }
-.main-menu .has-sub ul li a:hover {
-  color: #fe5716;
-}
+
 /* 23. mega menu */
 
 .offcanvas-menu .has-mega-menu ul {
@@ -12389,6 +12400,37 @@ blockquote cite {
     width: 100%;
     object-fit: cover;
     border-radius: 5px;
+  }
+
+  .rilon-banner{
+    box-shadow: rgb(248, 248, 248) 0px 15px;
+    background-color: #d0d0d1;
+    height: 125px;
+    display: flex;
+    align-items: center;
+  }
+
+  .rilon-banner img{
+    height: 80px;
+  }
+
+  .rilon-banner h2{
+    font-size: 40px;
+    font-weight: 600 !important;
+    letter-spacing: 2px;  
+  }
+
+  .first-dropdown{
+    display: flex !important;
+    align-items: center;
+  }
+  .first-dropdown h5{
+      margin-bottom:0;
+  }
+  .first-dropdown img{
+    height: 25px;
+    width: auto;
+    object-fit: contain;
   }
 @media (min-width: 767px) {
   .mean-container .mean-nav {

@@ -1,3 +1,12 @@
+@media (min-width: 1600px){
+  .margin-auto{
+    margin: auto;
+  }
+  .second-menu .main-menu ul li:nth-child(6){
+    margin-right: 0;
+  }
+}
+
 /* Normal desktop :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
   .right-menu .icon {
@@ -8,8 +17,8 @@
   }
   .menu-search {
     padding: 10px 10px 10px 0;
-  }.mean-container .mean-nav
-  .right-menu .text strong {
+  }
+  .mean-container .mean-nav .right-menu .text strong {
     font-size: 20px;
   }
   .slider-bg.slider-two {
@@ -1290,7 +1299,7 @@ margin-right: 10px;*/
     float: left;
     width: 100%;
     padding-right: 0;
-    padding:0;
+    padding: 0;
   }
   .about-area .nav.nav-tabs {
     transform: inherit;
@@ -1323,12 +1332,12 @@ margin-right: 10px;*/
 
 /* small mobile :320px. */
 @media (max-width: 767px) {
-  .card{
+  .card {
     width: 350px !important;
   }
-  .card img{
+  .card img {
     padding: 0 20px;
-  } 
+  }
   .banner-img {
     height: auto;
   }
@@ -2608,9 +2617,9 @@ margin-right: 10px;*/
     margin-top: 0;
     margin-bottom: 0;
   }
-  .product-detail-h2{
-   font-size: 35px !important;
-}
+  .product-detail-h2 {
+    font-size: 35px !important;
+  }
   .breadcrumb-title p {
     padding: 0;
     font-size: 15px;
@@ -2829,7 +2838,7 @@ margin-right: 10px;*/
   }
 }
 /* Large Mobile :480px. */
-@media only screen and (min-width: 600px) and (max-width: 767px) { 
+@media only screen and (min-width: 600px) and (max-width: 767px) {
   .services-active2 .slider-nav .slick-list.draggable {
     width: 500px;
     float: right;
@@ -2861,7 +2870,7 @@ margin-right: 10px;*/
     height: 170px !important;
     object-position: center;
   }
-  .header-content{
+  .header-content {
     padding: 0 30px !important;
   }
   .container-fluid {
@@ -2875,36 +2884,45 @@ margin-right: 10px;*/
   }
 }
 
-@media (max-width: 425px){
-  .mean-container .mean-nav ul li li a{
+@media (max-width: 426px) {
+  .rilon-banner {
+    height: auto;
+  }
+  .rilon-banner img{
+    height: 60px;
+  }
+  .rilon-banner h2{
+    font-size: 25px;
+  }
+  .mean-container .mean-nav ul li li a {
     padding: 10px 3%;
   }
-  .company-category img{
-    height: 45px; 
+  .company-category img {
+    height: 45px;
   }
-  .company-category{
+  .company-category {
     padding: 0 10px !important;
   }
-  .gallery a img{
+  .gallery a img {
     height: auto;
     width: 100%;
   }
-  .second-menu .logo a{
+  .second-menu .logo a {
     margin-left: 0px !important;
   }
-  .image-viewer img{
+  .image-viewer img {
     height: 300px !important;
   }
-  .credentials-content h2{
+  .credentials-content h2 {
     font-size: 33px;
   }
-  .searchform{
+  .searchform {
     display: none;
   }
-  .card{
+  .card {
     width: 320px !important;
   }
-  .card img{
+  .card img {
     padding: 0 35px;
   }
 }
