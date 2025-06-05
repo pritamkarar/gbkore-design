@@ -1335,6 +1335,7 @@ margin-right: 10px;*/
   .card {
     width: 350px !important;
   }
+  
   .card img {
     padding: 0 20px;
   }
@@ -2885,6 +2886,22 @@ margin-right: 10px;*/
 }
 
 @media (max-width: 426px) {
+  #rilon-loading img {
+    height: 75px;
+    width: 220px;
+  }
+  #rilon-loading img:nth-child(2){
+    width: 120px;
+  }
+  .card:hover{
+    box-shadow: none !important;
+    transform: scale(1) !important;
+  }
+  .card:hover img.product-image,
+.card:hover .card__title {
+  scale: 1;
+  filter: none !important;
+}
   .rilon-banner {
     height: auto;
   }
