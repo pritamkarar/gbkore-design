@@ -2906,14 +2906,20 @@ margin-right: 10px;*/
     height: auto;
   }
   .rilon-banner img{
-    height: 60px;
+    height: 50px;
   }
   .rilon-banner h2{
-    font-size: 25px;
+    font-size: 16px;
   }
   .mean-container .mean-nav ul li li a {
     padding: 10px 3%;
   }
+  .padding {
+    padding: 15px !important;
+  }
+  .company-img{
+  width:auto !important;
+}
   .company-category img {
     height: 45px;
   }
