@@ -116,18 +116,7 @@ ul.search-results li:not(:last-of-type) {
   top: 0px;
 }
 .sub-menu {
-  padding: 5px 10px 0px 10px;
-  position: absolute;
-  background: #fff;
-  min-width: 250px;
-  transform: translateX(250px);
-  border-top: 4px solid #fe5716;
-  visibility: hidden;
-  margin-left: -30px;
-  opacity: 0;
-  z-index: 1;
-  transition: all 0.3s ease-in-out;
-  top: 0px;
+  margin-left: -11px !important;
 }
 
 .main-menu .has-sub li:hover > .catogory-menu {

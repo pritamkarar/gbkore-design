@@ -11766,6 +11766,11 @@ div.single-cta:last-child {
 .logo a {
   color: #fff;
 }
+.rilon-logo img{
+      width: 100px;
+    height: 60px;
+    object-fit: contain;
+}
 blockquote a,
 blockquote cite {
   color: #bacdff;

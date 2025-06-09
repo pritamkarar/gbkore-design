@@ -2886,6 +2886,13 @@ margin-right: 10px;*/
 }
 
 @media (max-width: 426px) {
+  .sub-menu {
+  margin-left: -0px !important;
+}
+  .mean-container .mean-nav ul li li li li a {
+    width: 100%;
+    padding: 1em 0%;
+}
   #rilon-loading img {
     height: 75px;
     width: 220px;
