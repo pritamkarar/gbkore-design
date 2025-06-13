@@ -2893,7 +2893,6 @@ margin-right: 10px;*/
   }
   .rilon-logo img{
     height: 80px;
-    margin-left: 20px;
   }
   .mean-container a.meanmenu-reveal {
     margin-top: -60px;
@@ -3006,5 +3005,16 @@ margin-right: 10px;*/
   }
   .about-us img{
     height:auto;
+  }
+}
+@media (max-width: 375px) {
+  .rilon-logo img{
+    height: 65px;
+  }
+  .logo img {
+    width: 140px;
+  }
+  .mean-container a.meanmenu-reveal {
+      margin-top: -50px;
   }
 }
