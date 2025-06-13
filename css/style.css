@@ -485,6 +485,17 @@ label {
 }
 /* 2. header */
 
+.banner-title{
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.banner-subTitle{
+  font-size: 1.1rem;
+  color: #fff;
+}
+
 .header-top {
   padding-top: 40px;
   border-bottom: 1px solid #e6e6e6;
@@ -12398,7 +12409,7 @@ blockquote cite {
 }
 .company-category img {
     height: 55px;
-    width: 50%;
+    width: 65%;
     object-fit: contain;
 }
 .company-img{
