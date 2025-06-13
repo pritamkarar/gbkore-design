@@ -2882,12 +2882,16 @@ margin-right: 10px;*/
 }
 
 @media (max-width: 767px) {
+  
   .carousel-image img {
     height: 350px;
   }
 }
 
 @media (max-width: 430px) {
+  .new-arrivals-strip {
+    background-color:rgb(228, 190, 1);
+  }
   .logo img{
     width: 200px;
   }
