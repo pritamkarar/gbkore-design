@@ -1,8 +1,8 @@
-@media (min-width: 1600px){
-  .margin-auto{
+@media (min-width: 1600px) {
+  .margin-auto {
     margin: auto;
   }
-  .second-menu .main-menu ul li:nth-child(6){
+  .second-menu .main-menu ul li:nth-child(6) {
     margin-right: 0;
   }
 }
@@ -1335,7 +1335,7 @@ margin-right: 10px;*/
   .card {
     width: 350px !important;
   }
-  
+
   .card img {
     padding: 0 20px;
   }
@@ -1587,7 +1587,7 @@ margin-right: 10px;*/
   }
   .slick-slide img {
     display: inline-block;
-       min-height: 290px;
+    min-height: 290px;
     object-fit: contain;
   }
   .animations-01,
@@ -1738,7 +1738,7 @@ margin-right: 10px;*/
   .menu .sub-menu {
     border-top: 1px solid rgb(217, 217, 217, 0.5);
   }
-  .mean-container a.meanmenu-reveal span {  
+  .mean-container a.meanmenu-reveal span {
     background: no-repeat;
     display: block;
     height: 3px;
@@ -2882,7 +2882,6 @@ margin-right: 10px;*/
 }
 
 @media (max-width: 767px) {
-  
   .carousel-image img {
     height: 350px;
   }
@@ -2921,95 +2920,106 @@ margin-right: 10px;*/
     left: 10px;
     top: 8px;
     font-weight: bold;
-    white-space: nowrap;  
+    white-space: nowrap;
   }
-  tbody tr:nth-child(even){
+  tbody tr:nth-child(even) {
     background-color: white !important;
   }
-  tbody tr th:nth-child(1){
+  tbody tr th:nth-child(1) {
     width: 100% !important;
     border: none;
   }
-  .table-respo-redesign tbody tr th{
+  .table-respo-redesign tbody tr th {
     background: #555555 !important;
     color: white;
   }
 }
 
 @media (max-width: 430px) {
-  .new-arrivals-strip {
-    background-color:rgb(228, 190, 1);
+  .viewbutton {
+    font-size: 14px;
+    width: 150px;
+        margin: auto;
   }
-  .logo img{
+  .button-text {
+    margin: 0 1em;
+  }
+  .viewbutton svg {
+    width: 1.7em;
+  }
+  .new-arrivals-strip {
+    background-color: rgb(228, 190, 1);
+  }
+  .logo img {
     width: 200px;
   }
-  .rilon-logo img{
+  .rilon-logo img {
     height: 80px;
-      margin-right: 10px;
+    margin-right: 10px;
   }
   .mean-container a.meanmenu-reveal {
     margin-top: -60px;
   }
   .sticky-menu .mean-container a.meanmenu-reveal {
-      margin-top: -60px;
+    margin-top: -60px;
   }
-  .company-category a{
+  .company-category a {
     min-height: 45px;
-}
-  .banner-content{
+  }
+  .banner-content {
     margin-bottom: 3.5rem !important;
   }
-  .banner-title{
-    font-size: 1.5rem ;
-    margin-bottom: .5rem;
+  .banner-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
   }
   .banner-subTitle {
-    font-size: .9rem;
+    font-size: 0.9rem;
     margin-bottom: 0;
   }
-  .animated-button{
+  .animated-button {
     padding: 12px 34px;
   }
-  .home-about{
+  .home-about {
     font-size: 28px !important;
     margin-bottom: 1rem !important;
   }
-  .company-category a img{
+  .company-category a img {
     width: auto !important;
   }
   .company-category img {
     width: 25% !important;
-}
+  }
   .sub-menu {
-  margin-left: -0px !important;
-}
+    margin-left: -0px !important;
+  }
   .mean-container .mean-nav ul li li li li a {
     width: 100%;
     padding: 1em 0%;
-}
+  }
   #rilon-loading img {
     height: 75px;
     width: 220px;
   }
-  #rilon-loading img:nth-child(2){
+  #rilon-loading img:nth-child(2) {
     width: 120px;
   }
-  .card:hover{
+  .card:hover {
     box-shadow: none !important;
     transform: scale(1) !important;
   }
   .card:hover img.product-image,
-.card:hover .card__title {
-  scale: 1;
-  filter: none !important;
-}
+  .card:hover .card__title {
+    scale: 1;
+    filter: none !important;
+  }
   .rilon-banner {
     height: auto;
   }
-  .rilon-banner img{
+  .rilon-banner img {
     height: 50px;
   }
-  .rilon-banner h2{
+  .rilon-banner h2 {
     font-size: 16px;
   }
   .mean-container .mean-nav ul li li a {
@@ -3018,16 +3028,16 @@ margin-right: 10px;*/
   .padding {
     padding: 15px !important;
   }
-  .company-img{
-  width:auto !important;
-}
+  .company-img {
+    width: auto !important;
+  }
   .company-category img {
     height: 45px;
   }
   .company-category {
     padding: 0 10px !important;
   }
-  .category-card img{
+  .category-card img {
     height: 220px !important;
   }
   .gallery a img {
@@ -3052,35 +3062,35 @@ margin-right: 10px;*/
   .card img {
     padding: 0 35px;
   }
-  .cssbuttons-io-button{
+  .cssbuttons-io-button {
     font-size: 15px !important;
     letter-spacing: 0px !important;
   }
-  .about-us img{
-    height:auto;
+  .about-us img {
+    height: auto;
   }
   .new-arrivals-strip .item {
     background: #ffc400;
     padding: 5px 30px;
     margin-left: -1px;
-}
-.new-arrivals-strip {
+  }
+  .new-arrivals-strip {
     background-color: #28a167;
     padding: 3px 0px;
-}
-.sticky-menu{
-  top: 39px;
-}
+  }
+  .sticky-menu {
+    top: 39px;
+  }
 }
 @media (max-width: 375px) {
-  .rilon-logo img{
+  .rilon-logo img {
     height: 65px;
   }
   .logo img {
     width: 140px;
   }
   .mean-container a.meanmenu-reveal {
-      margin-top: -50px;
+    margin-top: -50px;
   }
   .sticky-menu .mean-container a.meanmenu-reveal {
     margin-top: -50px;
