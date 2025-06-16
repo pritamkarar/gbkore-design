@@ -2886,6 +2886,54 @@ margin-right: 10px;*/
   .carousel-image img {
     height: 350px;
   }
+  .table-respo-redesign table,
+  .table-respo-redesign thead,
+  .table-respo-redesign tbody,
+  .table-respo-redesign th,
+  .table-respo-redesign td,
+  .table-respo-redesign tr {
+    display: block;
+    width: 100%;
+  }
+
+  .table-respo-redesign thead {
+    display: none;
+  }
+
+  .table-respo-redesign tr {
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    background: #fff;
+  }
+
+  .table-respo-redesign td {
+    text-align: left;
+    padding: 8px;
+    position: relative;
+    padding-left: 50%;
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .table-respo-redesign td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    font-weight: bold;
+    white-space: nowrap;  
+  }
+  tbody tr:nth-child(even){
+    background-color: white !important;
+  }
+  tbody tr th:nth-child(1){
+    width: 100% !important;
+    border: none;
+  }
+  .table-respo-redesign tbody tr th{
+    background: #555555 !important;
+    color: white;
+  }
 }
 
 @media (max-width: 430px) {
@@ -2897,6 +2945,7 @@ margin-right: 10px;*/
   }
   .rilon-logo img{
     height: 80px;
+      margin-right: 10px;
   }
   .mean-container a.meanmenu-reveal {
     margin-top: -60px;
@@ -3010,6 +3059,18 @@ margin-right: 10px;*/
   .about-us img{
     height:auto;
   }
+  .new-arrivals-strip .item {
+    background: #ffc400;
+    padding: 5px 30px;
+    margin-left: -1px;
+}
+.new-arrivals-strip {
+    background-color: #28a167;
+    padding: 3px 0px;
+}
+.sticky-menu{
+  top: 39px;
+}
 }
 @media (max-width: 375px) {
   .rilon-logo img{
@@ -3020,5 +3081,8 @@ margin-right: 10px;*/
   }
   .mean-container a.meanmenu-reveal {
       margin-top: -50px;
+  }
+  .sticky-menu .mean-container a.meanmenu-reveal {
+    margin-top: -50px;
   }
 }
